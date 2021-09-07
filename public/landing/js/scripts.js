@@ -3,7 +3,6 @@
    Description: Custom JS file
 */
 
-
 (function($) {
     "use strict"; 
 	
@@ -79,6 +78,8 @@
 			enabled:true //enable gallery mode
 		}
     });
+
+    
 
 
     /* Video Lightbox - Magnific Popup */

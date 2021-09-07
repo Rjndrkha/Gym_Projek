@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="{!! asset('logreg/stylelogin.css') !!}">
-    <link rel="icon" href="landing/images/new/logo2.png">
-    <title>Welcome Nge Gym Skuy Application</title>
+    <link rel="stylesheet" type="text/css" href="{!! asset('css/stylelogin.css') !!}">
+
+    <title>Welcome To Coding Learn Application</title>
 </head>
 
 <body>
@@ -17,7 +17,8 @@
             <div class="signin-signup">
                 <form method="POST" action="{{ route('login') }}" class="sign-in-form">
                     @csrf
-                   
+                    <img src="a/images/logo.png" width="400px">
+                    <br>
                     <h2 class="title">Sign in</h2>
 
                     <div class="input-field">
@@ -93,7 +94,7 @@
                 <form method="POST" action="{{ route('register') }}" class="sign-up-form">
                     @csrf
                     <br>
-                 
+                    <img src="a/images/logo.png" width="150px"><br>
                     <h4 class="title">Sign up</h4>
 
                     <div class="input-field">
@@ -185,7 +186,7 @@
                     <div class="content">
                         <h3>New here ?</h3>
                         <p>
-                            Start By Click
+                            Start Learn Coding By Click
                         </p>
                         <button class="btn transparent" id="sign-up-btn">
                             Sign up
@@ -197,7 +198,7 @@
                     <div class="content">
                         <h3>One of us ?</h3>
                         <p>
-                            Start Click
+                            Start Learn Coding By Click
                         </p>
                         <button class="btn transparent" id="sign-in-btn">
                             Sign in

@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="icon" href="a/images/icon-b1.png">
+    <link rel="icon" href="landing/images/new/logo2.png">
 
 
     <!-- SEO Meta Tags -->
 
     <meta name="author" content="ArJ">
-    <link rel="icon" href="a/images/icon-b1.png">
+    
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
     <meta property="og:site_name" content="" /> <!-- website name -->
@@ -23,7 +23,7 @@
     <meta property="og:type" content="article" />
 
     <!-- Webpage Title -->
-    <title>Coding Learn Application</title>
+    <title>Nge Gym Skuy</title>
 
     <!-- Styles -->
     <link href="../../fonts.googleapis.com/css2ed1a.css?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap" rel="stylesheet">
@@ -37,8 +37,31 @@
     <!-- Favicon  -->
     <link rel="shortcut icon" href="b/ci-icon.ico" />
 
+    <style>
+       
 
+        .grid-container {
+            margin: 20px auto;
+            width: 400px;
+            height: 400px;
+            display: inline-grid;
+            grid-template-columns: 200px 200px;
+            grid-row: 4;
+     
+        }
 
+        .grid-item {
+     
+            padding: 20px;
+            border-radius: 10px;
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            font-family: sans-serif;
+        }
+    </style>
 
 
 </head>
@@ -53,7 +76,7 @@
             <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Evolo</a> -->
 
             <!-- Image Logo -->
-            <a class="" href="#"><img src="a/images/logo.png" style="width:300px;" alt="alternative"></a>
+            <a class="" href="#"><img src="landing/images/new/logo2.png" style="width:100px;height: 100px;" alt="alternative"></a>
 
             <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
                 <span class="navbar-toggler-icon"></span>
@@ -61,17 +84,25 @@
 
             <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ml-auto">
+
+                   <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#header">Main <span class="sr-only">(current)</span></a>
+                    </li>
+
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#services">Services <span class="sr-only">(current)</span></a>
+                        <a class="nav-link page-scroll" href="#services">Kalkulator</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#details">Details</a>
+                        <a class="nav-link page-scroll" href="#details">News</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="#pricing">Teams</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item" >
+                   <a class="nav-link page-scroll" style="background-color: black;" href="{{url('login')}}">LOGIN</a>
                     </li>
 
                 </ul>
@@ -100,13 +131,43 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="text-container">
-                        <h1 class="h1-large"> Nge Gym</h1>
 
-                        <!-- Card -->
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <label class="card">
+
+                                <span class="plan-details">
+                                    <img src="https://hellosehat.com/images/maleIcon.svg" style="height: 100px;" alt="alternative">
+                                    <span class="plan-type">Konsultasi Dengan Mentor Gym</span>
+
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="grid-item">
+                            <label class="card">
 
 
-                        <!-- end of card -->
+                                <span class="plan-details">
+                                    <img src="https://hellosehat.com/images/maleIcon.svg" style="height: 100px;" alt="alternative">
+                                    <span class="plan-type">Cari Tempat Gym</span>
+
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="grid-item">
+                            <label class="card">
+
+
+                                <span class="plan-details">
+                                    <img src="https://hellosehat.com/images/maleIcon.svg" style="height: 100px;" alt="alternative">
+                                    <span class="plan-type">Info Kesehatan otot & Tubuh</span>
+
+                                </span>
+                            </label>
+                        </div>
+
 
                     </div> <!-- end of text-container -->
                 </div> <!-- end of div -->
@@ -175,10 +236,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
+                    <br><br>
                     <h2 class="h2-heading">Kalkulator BMI</h2>
                     <p class="p-heading">
-                        Kami menyelenggarakan beberapa program
-                        untuk mendukung Pembelajaran coding di Indonesia.</p>
+                        Hitung Berat Badan Ideal kamu dengan Kalkulator BMI.</p>
 
 
                 </div> <!-- end of col -->
@@ -190,11 +251,11 @@
 
                     <!-- Contact Form -->
                     <form>
-                        <div class="grid" style="margin-left:200px;">
+                        <div class="grid">
                             <label class="card">
                                 <input name="men" class="radio" type="radio" checked>
 
-                                <span class="plan-details" >
+                                <span class="plan-details">
                                     <img src="https://hellosehat.com/images/maleIcon.svg" style="height: 100px;" alt="alternative">
                                     <span class="plan-type">Men</span>
 
@@ -244,10 +305,6 @@
 
 
 
-
-
-
-
     <!-- Video -->
     <div class="basic-3" id="details">
         <div class="container">
@@ -255,25 +312,94 @@
                 <div class="col-lg-12">
                     <h2 class="h2-heading">News About Body Health</h2>
 
-                    <!-- Video Preview -->
-                    <div class="image-container">
-                        <div class="video-wrapper">
-                            <a class="popup-youtube" href="#" data-effect="fadeIn">
-                                <img class="img-fluid" src="landing/images/video-preview.svg" alt="alternative">
-                                <span class="video-play-button">
-                                    <span></span>
+                    <div class='post-module'>
+                        <div class='thumbnail'>
+                            <div class='date'>
+                                <div class='day'>27</div>
+                                <div class='month'>Mar</div>
+                            </div>
+                            <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg'>
+                        </div>
+                        <div class='post-content'>
+                            <div class='category'>Photos</div>
+                            <h1 class='title'>City Lights in New York</h1>
+                            <h2 class='sub-title'>The city that never sleeps.</h2>
+                            <p class='description'>New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
+                            <div class='post-meta'>
+                                <span class='timestamp'>
+                                    <i class='fa fa-clock-o'></i>
+                                    6 mins ago
                                 </span>
-                            </a>
-                        </div> <!-- end of video-wrapper -->
+                                <span class='comments'>
+                                    <i class='fa fa-comments'></i>
+                                    <a href='#'>39 comments</a>
+                                </span>
+                            </div>
+                        </div>
                     </div> <!-- end of image-container -->
                     <!-- end of video preview -->
 
-                    <p class="p-heading">This video will show you a case study for one of our Major Customers and will help you understand why your startup needs Evolo in this highly competitive market</p>
+                    <div class='post-module'>
+                        <div class='thumbnail'>
+                            <div class='date'>
+                                <div class='day'>27</div>
+                                <div class='month'>Mar</div>
+                            </div>
+                            <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg'>
+                        </div>
+                        <div class='post-content'>
+                            <div class='category'>Photos</div>
+                            <h1 class='title'>City Lights in New York</h1>
+                            <h2 class='sub-title'>The city that never sleeps.</h2>
+                            <p class='description'>New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
+                            <div class='post-meta'>
+                                <span class='timestamp'>
+                                    <i class='fa fa-clock-o'></i>
+                                    6 mins ago
+                                </span>
+                                <span class='comments'>
+                                    <i class='fa fa-comments'></i>
+                                    <a href='#'>39 comments</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div> <!-- end of image-container -->
+                    <!-- end of video preview -->
+
+                    <div class='post-module'>
+                        <div class='thumbnail'>
+                            <div class='date'>
+                                <div class='day'>27</div>
+                                <div class='month'>Mar</div>
+                            </div>
+                            <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg'>
+                        </div>
+                        <div class='post-content'>
+                            <div class='category'>Photos</div>
+                            <h1 class='title'>City Lights in New York</h1>
+                            <h2 class='sub-title'>The city that never sleeps.</h2>
+                            <p class='description'>New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
+                            <div class='post-meta'>
+                                <span class='timestamp'>
+                                    <i class='fa fa-clock-o'></i>
+                                    6 mins ago
+                                </span>
+                                <span class='comments'>
+                                    <i class='fa fa-comments'></i>
+                                    <a href='#'>39 comments</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div> <!-- end of image-container -->
+                    <!-- end of video preview -->
+
+
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of basic-3 -->
     <!-- end of video -->
+
 
 
     <!-- Testimonials -->
@@ -362,11 +488,13 @@
                     <p class="p-heading">Meat our team of specialized developers which will help you to learn about the material</p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
+
+
+            <div class="row" style="display: inline-flex;position: relative;">
+                <div class="col-lg-12 ">
 
                     <!-- Card -->
-                    <div class="card" style="margin-left: 70px;">
+                    <div class="card">
                         <div class="card-image">
                             <img class="img-fluid" src="a/images/ari.jpeg" alt="alternative">
                         </div>
@@ -389,15 +517,15 @@
                         </div>
                     </div>
                     <!-- end of card -->
-
                     <!-- Card -->
                     <div class="card">
                         <div class="card-image">
-                            <img class="img-fluid" src="landing/images/rjn.jpeg" style="height: 200px;width:300px;" alt="alternative">
+                            <img class="img-fluid" src="a/images/ari.jpeg" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <h6 class="card-title">Rajendra Rakha A P</h6>
-                            <p>Deputy Project Manager <br> UI/UX Designer <br> Frontend Programmer</p>
+                            <h6 class="card-title">Rajendra Rakha Arya P</h6>
+                            <p>Project Manager <br> Project Developer <br> Frontend Programmer</p>
+
                             <span class="fa-stack">
                                 <a href="#your-link">
                                     <i class="fas fa-circle fa-stack-2x"></i>
@@ -412,22 +540,17 @@
                             </span>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- end of card -->
-
-
-            <div class="row">
-                <div class="col-lg-12">
+                    <!-- end of card -->
 
                     <!-- Card -->
-                    <div class="card" style="margin-left: 130px;">
+                    <div class="card">
                         <div class="card-image">
-                            <img class="img-fluid" src="a/images/radit.jpeg" style="height: 200px;width:500px;" alt="alternative">
+                            <img class="img-fluid" src="a/images/ari.jpeg" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <h6 class="card-title">Radithya Iqbal P</h6>
-                            <p>UI/UX Designer <br> Back-end Programmer</p>
+                            <h6 class="card-title">Rivaldo Ferby Aquarelf</h6>
+                            <p>Project Manager <br> Project Developer <br> Frontend Programmer</p>
+
                             <span class="fa-stack">
                                 <a href="#your-link">
                                     <i class="fas fa-circle fa-stack-2x"></i>
@@ -444,12 +567,11 @@
                     </div>
                     <!-- end of card -->
                 </div>
+            </div>
+        </div>
+    </div>
 
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of container -->
-    </div> <!-- end of cards-3 -->
-    <!-- end of about -->
+
 
 
     <!-- Contact -->
@@ -571,6 +693,8 @@
     <!-- end of copyright -->
 
 
+
+
     <!-- Scripts -->
     <script src="landing/js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="landing/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
@@ -578,6 +702,10 @@
     <script src="landing/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
     <script src="landing/js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
     <script src="landing/js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="landing/js/script.js"></script> <!-- Custom scripts -->
+
+
+
 </body>
 
 </html>
