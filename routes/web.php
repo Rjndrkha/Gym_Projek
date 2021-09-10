@@ -28,4 +28,8 @@ Route::get('/homee', function () {
 Route::get('shop.index/', function () {
     return view('shop.index');
   });
+
+Route::get('artikel.index/', function () {
+    return view('artikel.index');
+  });
   
