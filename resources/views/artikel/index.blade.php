@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="artikel/A.fonts,,_icomoon,,_style.css css,,_bootstrap.min.css css,,_jquery-ui.css css,,_owl.carousel.min.css css,,_owl.theme.default.min.css css,,_owl.theme.default.min.css css,,_jquery.fancybox.min.css css,,_bootstra.css">
     <link href="artikel/css/A.jquery.mb.YTPlayer.min.css.pagespeed.cf.N2G3N4O1x5.css" media="all" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="artikel/css/A.style.css.pagespeed.cf.2yPk2cBvMB.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{!! asset('home/style.css') !!}">
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -27,7 +28,7 @@
                 <div class="row align-items-center">
                     <div class="col-12 col-lg-6 d-flex">
                         <a href="index.html" class="site-logo">
-                            Meranda
+                            Today Hits
                         </a>
                         <a href="#" class="ml-auto d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a>
                     </div>
@@ -86,7 +87,7 @@
                 <div class="site-section">
                     <div class="container">
                         <div class="half-post-entry d-block d-lg-flex bg-light">
-                            <div class="img-bg" style="background-image:url(images/xbig_img_1.jpg.pagespeed.ic.UKA_TdMRvl.jpg)"></div>
+                            <div class="img-bg" style="background-image:url(artikel/images/xbig_img_1.jpg.pagespeed.ic.UKA_TdMRvl.jpg)"></div>
                             <div class="contents">
                                 <span class="caption">Editor's Pick</span>
                                 <h2><a href="blog-single.html">News Needs to Meet Its Audiences Where They Are</a></h2>
@@ -102,7 +103,7 @@
                 <div class="site-section">
                     <div class="container">
                         <div class="half-post-entry d-block d-lg-flex bg-light">
-                            <div class="img-bg" style="background-image:url(images/xbig_img_1.jpg.pagespeed.ic.UKA_TdMRvl.jpg)"></div>
+                            <div class="img-bg" style="background-image:url(artikel/images/xbig_img_1.jpg.pagespeed.ic.UKA_TdMRvl.jpg)"></div>
                             <div class="contents">
                                 <span class="caption">Editor's Pick</span>
                                 <h2><a href="blog-single.html">News Needs to Meet Its Audiences Where They Are</a></h2>
@@ -142,7 +143,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="post-entry-2 d-flex bg-light">
-                                    <div class="thumbnail" style="background-image:url(images/ximg_v_1.jpg.pagespeed.ic.3I1idqfnsc.jpg)"></div>
+                                    <div class="thumbnail" style="background-image:url(artikel/images/ximg_v_1.jpg.pagespeed.ic.3I1idqfnsc.jpg)"></div>
                                     <div class="contents">
                                         <h2><a href="blog-single.html">News Needs to Meet Its Audiences Where They Are</a></h2>
                                         <div class="post-meta">
@@ -152,7 +153,7 @@
                                     </div>
                                 </div>
                                 <div class="post-entry-2 d-flex">
-                                    <div class="thumbnail" style="background-image:url(images/ximg_v_2.jpg.pagespeed.ic.InLUnLj133.jpg)"></div>
+                                    <div class="thumbnail" style="background-image:url(artikel/images/ximg_v_2.jpg.pagespeed.ic.InLUnLj133.jpg)"></div>
                                     <div class="contents">
                                         <h2><a href="blog-single.html">News Needs to Meet Its Audiences Where They Are</a></h2>
                                         <div class="post-meta">
@@ -162,7 +163,7 @@
                                     </div>
                                 </div>
                                 <div class="post-entry-2 d-flex">
-                                    <div class="thumbnail" style="background-image:url(images/ximg_v_3.jpg.pagespeed.ic.WaENlO8gaw.jpg)"></div>
+                                    <div class="thumbnail" style="background-image:url(artikel/images/ximg_v_3.jpg.pagespeed.ic.WaENlO8gaw.jpg)"></div>
                                     <div class="contents">
                                         <h2><a href="blog-single.html">News Needs to Meet Its Audiences Where They Are</a></h2>
                                         <div class="post-meta">
@@ -229,7 +230,7 @@
         <div class="py-0">
             <div class="container">
                 <div class="half-post-entry d-block d-lg-flex bg-light">
-                    <div class="img-bg" style="background-image:url(images/xbig_img_1.jpg.pagespeed.ic.UKA_TdMRvl.jpg)"></div>
+                    <div class="img-bg" style="background-image:url(artikel/images/xbig_img_1.jpg.pagespeed.ic.UKA_TdMRvl.jpg)"></div>
                     <div class="contents">
                         <span class="caption">Editor's Pick</span>
                         <h2><a href="blog-single.html">News Needs to Meet Its Audiences Where They Are</a></h2>
@@ -250,7 +251,7 @@
                             <h2>Politics</h2>
                         </div>
                         <div class="post-entry-2 d-flex">
-                            <div class="thumbnail" style="background-image:url(images/ximg_v_1.jpg.pagespeed.ic.3I1idqfnsc.jpg)"></div>
+                            <div class="thumbnail" style="background-image:url(artikel/images/ximg_v_1.jpg.pagespeed.ic.3I1idqfnsc.jpg)"></div>
                             <div class="contents">
                                 <h2><a href="blog-single.html">News Needs to Meet Its Audiences Where They Are</a></h2>
                                 <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi temporibus praesentium neque, voluptatum quam quibusdam.</p>
@@ -261,7 +262,7 @@
                             </div>
                         </div>
                         <div class="post-entry-2 d-flex">
-                            <div class="thumbnail" style="background-image:url(images/ximg_v_2.jpg.pagespeed.ic.InLUnLj133.jpg)"></div>
+                            <div class="thumbnail" style="background-image:url(artikel/images/ximg_v_2.jpg.pagespeed.ic.InLUnLj133.jpg)"></div>
                             <div class="contents">
                                 <h2><a href="blog-single.html">News Needs to Meet Its Audiences Where They Are</a></h2>
                                 <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi temporibus praesentium neque, voluptatum quam quibusdam.</p>
@@ -272,7 +273,7 @@
                             </div>
                         </div>
                         <div class="post-entry-2 d-flex">
-                            <div class="thumbnail" style="background-image:url(images/ximg_v_3.jpg.pagespeed.ic.WaENlO8gaw.jpg)"></div>
+                            <div class="thumbnail" style="background-image:url(artikel/images/ximg_v_3.jpg.pagespeed.ic.WaENlO8gaw.jpg)"></div>
                             <div class="contents">
                                 <h2><a href="blog-single.html">News Needs to Meet Its Audiences Where They Are</a></h2>
                                 <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi temporibus praesentium neque, voluptatum quam quibusdam.</p>
@@ -288,7 +289,7 @@
                             <h2>Business</h2>
                         </div>
                         <div class="post-entry-2 d-flex">
-                            <div class="thumbnail" style="background-image:url(images/ximg_v_1.jpg.pagespeed.ic.3I1idqfnsc.jpg)"></div>
+                            <div class="thumbnail" style="background-image:url(artikel/images/ximg_v_1.jpg.pagespeed.ic.3I1idqfnsc.jpg)"></div>
                             <div class="contents">
                                 <h2><a href="blog-single.html">News Needs to Meet Its Audiences Where They Are</a></h2>
                                 <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi temporibus praesentium neque, voluptatum quam quibusdam.</p>
@@ -299,7 +300,7 @@
                             </div>
                         </div>
                         <div class="post-entry-2 d-flex">
-                            <div class="thumbnail" style="background-image:url(images/ximg_v_2.jpg.pagespeed.ic.InLUnLj133.jpg)"></div>
+                            <div class="thumbnail" style="background-image:url(artikel/images/ximg_v_2.jpg.pagespeed.ic.InLUnLj133.jpg)"></div>
                             <div class="contents">
                                 <h2><a href="blog-single.html">News Needs to Meet Its Audiences Where They Are</a></h2>
                                 <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi temporibus praesentium neque, voluptatum quam quibusdam.</p>
@@ -310,7 +311,7 @@
                             </div>
                         </div>
                         <div class="post-entry-2 d-flex">
-                            <div class="thumbnail" style="background-image:url(images/ximg_v_3.jpg.pagespeed.ic.WaENlO8gaw.jpg)"></div>
+                            <div class="thumbnail" style="background-image:url(artikel/images/ximg_v_3.jpg.pagespeed.ic.WaENlO8gaw.jpg)"></div>
                             <div class="contents">
                                 <h2><a href="blog-single.html">News Needs to Meet Its Audiences Where They Are</a></h2>
                                 <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi temporibus praesentium neque, voluptatum quam quibusdam.</p>
@@ -332,7 +333,7 @@
                             <h2>Recent News</h2>
                         </div>
                         <div class="post-entry-2 d-flex">
-                            <div class="thumbnail order-md-2" style="background-image:url(images/ximg_h_4.jpg.pagespeed.ic.QPUtNJLYvL.jpg)"></div>
+                            <div class="thumbnail order-md-2" style="background-image:url(artikel/images/ximg_h_4.jpg.pagespeed.ic.QPUtNJLYvL.jpg)"></div>
                             <div class="contents order-md-1 pl-0">
                                 <h2><a href="blog-single.html">News Needs to Meet Its Audiences Where They Are</a></h2>
                                 <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi temporibus praesentium neque, voluptatum quam quibusdam.</p>
@@ -343,7 +344,7 @@
                             </div>
                         </div>
                         <div class="post-entry-2 d-flex">
-                            <div class="thumbnail order-md-2" style="background-image:url(images/ximg_h_3.jpg.pagespeed.ic.kAgsEPQowC.jpg)"></div>
+                            <div class="thumbnail order-md-2" style="background-image:url(artikel/images/ximg_h_3.jpg.pagespeed.ic.kAgsEPQowC.jpg)"></div>
                             <div class="contents order-md-1 pl-0">
                                 <h2><a href="blog-single.html">News Needs to Meet Its Audiences Where They Are</a></h2>
                                 <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi temporibus praesentium neque, voluptatum quam quibusdam.</p>
@@ -354,7 +355,7 @@
                             </div>
                         </div>
                         <div class="post-entry-2 d-flex">
-                            <div class="thumbnail order-md-2" style="background-image:url(images/ximg_h_3.jpg.pagespeed.ic.kAgsEPQowC.jpg)"></div>
+                            <div class="thumbnail order-md-2" style="background-image:url(artikel/images/ximg_h_3.jpg.pagespeed.ic.kAgsEPQowC.jpg)"></div>
                             <div class="contents order-md-1 pl-0">
                                 <span class="caption mb-4 d-block">Editor's Pick</span>
                                 <h2><a href="blog-single.html">News Needs to Meet Its Audiences Where They Are</a></h2>
@@ -427,40 +428,148 @@
                 </div>
             </div>
         </div>
-        <div class="site-section subscribe bg-light">
-            <div class="container">
-                <form action="#" class="row align-items-center">
-                    <div class="col-md-5 mr-auto">
-                        <h2>Newsletter Subcribe</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis aspernatur ut at quae omnis pariatur obcaecati possimus nisi ea iste!</p>
-                    </div>
-                    <div class="col-md-6 ml-auto">
-                        <div class="d-flex">
-                            <input type="email" class="form-control" placeholder="Enter your email">
-                            <button type="submit" class="btn btn-secondary"><span class="icon-paper-plane"></span></button>
+
+        <footer class="sc-htpNat cnzSqm">
+            <div class="sc-chPdSV ckEKKQ">
+                <div class="sc-htpNat hZywIq">
+                    <div class="sc-htpNat bGGnxF"><img alt="SehatQ" src="landing/images/new/logo2.png" width="150" height="150" class="sc-jzJRlG jJeLuK" /></div>
+                    <div class="sc-kGXeez iygvnT">
+                        <div class="sc-kpOJdX gxxeLD">
+                            <div class="sc-htpNat bSPBUS">
+                                <h4 class="sc-gZMcBi cCJIfu poppins">Langganan Newsletter</h4>
+                                <div class="sc-htpNat iZWQZt">
+                                    <p class="sc-gZMcBi LMvqO">Jadi orang yang pertama tahu info &amp; promosi kesehatan terbaru
+                                        dari
+                                        SehatQ. Gratis.</p>
+                                    <div class="sc-kGXeez kJqNCf">
+                                        <div class="sc-kpOJdX cxogSu"><label class="sc-jbKcbu hJrbEv"><input type="radio" name="news_gender" class="sc-jqCOkK iXJHQM" /><span class="sc-dNLxif gzOlIM"><i></i>Perempuan</span></label>
+                                        </div>
+                                        <div class="sc-kpOJdX kHHyUN"><label class="sc-jbKcbu hJrbEv"><input type="radio" name="news_gender" class="sc-jqCOkK iXJHQM" /><span class="sc-dNLxif gzOlIM"><i></i>Laki-laki</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="sc-hqyNC lgqMMo">
+                                        <div class="sc-kGXeez jXfIFk">
+                                            <div class="sc-kpOJdX rRICf">
+                                                <div class="sc-iAyFgw PPzwV">
+                                                    <div class="sc-hSdWYo lpuOSs">
+                                                        <div class="sc-jlyJG jpaAuv">
+                                                            <input type="email" maxLength="150" placeholder="Email" value="" class="sc-jAaTju bXLluq" />
+                                                        </div>
+                                                        <div class="sc-jWBwVP eWjpev">
+                                                            <button type="button" class="sc-bxivhb fUcnfF sc-ifAKCX ebnevm"><i class="sc-EHOje hNxZub"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sc-htpNat iZWQZt">
+                                <h4 class="sc-gZMcBi cCJIfu poppins">Metode Pembayaran</h4>
+                                <div class="sc-kGXeez fvSaIv">
+                                    <div class="sc-kpOJdX jdDXmT"><img src="https://static.sehatq.com/web/assets/img/payment/bca.png?v=6" alt="Metode pembayaran BCA" width="60" height="20" class="sc-jzJRlG jJeLuK" /></div>
+                                    <div class="sc-kpOJdX jdDXmT"><img src="https://static.sehatq.com/web/assets/img/payment/mandiri.png?v=6" alt="Metode pembayaran Mandiri" width="65" height="18" class="sc-jzJRlG jJeLuK" /></div>
+                                    <div class="sc-kpOJdX jdDXmT"><img src="https://static.sehatq.com/web/assets/img/payment/bni.png?v=6" alt="Metode pembayaran BNI" width="58" height="17" class="sc-jzJRlG jJeLuK" /></div>
+                                    <div class="sc-kpOJdX jdDXmT"><img src="https://static.sehatq.com/web/assets/img/payment/permata.png?v=6" alt="Metode pembayaran Permata" width="84" height="20" class="sc-jzJRlG jJeLuK" /></div>
+                                    <div class="sc-kpOJdX jdDXmT"><img src="https://static.sehatq.com/web/assets/img/cc.png?v=6" alt="Metode pembayaran Kartu Kredit" width="180.36" height="29" class="sc-jzJRlG jJeLuK" />
+                                    </div>
+                                    <div class="sc-kpOJdX jdDXmT"><img src="https://static.sehatq.com/web/assets/img/gopay.png?v=6" alt="Metode pembayaran Gopay" width="73.84" height="16" class="sc-jzJRlG jJeLuK" /></div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="copyright">
-                            <p>
+                        <div class="sc-kpOJdX bonvib">
+                            <div class="sc-htpNat iZWQZt">
+                                <h4 class="sc-gZMcBi cCJIfu poppins">Fitur</h4>
+                                <div class="sc-htpNat iZWQZt">
+                                    <ul class="sc-gipzik kRcWov">
 
-                                Copyright &copy;<script>
-                                    document.write(new Date().getFullYear());
-                                </script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="../../index.htm" target="_blank">Colorlib</a>
+                                        <li class="sc-csuQGl clWQaq"><a href="/promo" class="sc-gZMcBi sc-kAzzGY wYtXl">Promo</a></li>
+                                        <li class="sc-csuQGl clWQaq"><a href="/artikel" class="sc-gZMcBi sc-kAzzGY wYtXl">Artikel</a>
+                                        </li>
+                                        <li class="sc-csuQGl clWQaq"><a href="/telemed" class="sc-gZMcBi sc-kAzzGY wYtXl">Chat
+                                                Dokter</a>
+                                        </li>
+                                        <li class="sc-csuQGl clWQaq"><a href="/penyakit" class="sc-gZMcBi sc-kAzzGY wYtXl">Penyakit</a></li>
+                                        <li class="sc-csuQGl clWQaq"><a href="/forum" class="sc-gZMcBi sc-kAzzGY wYtXl">Forum</a></li>
+                                        <li class="sc-csuQGl clWQaq"><a href="/review" class="sc-gZMcBi sc-kAzzGY wYtXl">Review</a>
+                                        </li>
+                                        <li class="sc-csuQGl clWQaq"><a href="/tes-kesehatan" class="sc-gZMcBi sc-kAzzGY wYtXl">Tes
+                                                Kesehatan</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sc-kpOJdX bonvib">
+                            <div class="sc-htpNat bGGnxF">
+                                <h4 class="sc-gZMcBi cCJIfu poppins">Perusahaan</h4>
+                                <div class="sc-htpNat iZWQZt">
+                                    <ul class="sc-gipzik kRcWov">
+                                        <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Tentang Kami</a></li>
+                                        <li class="sc-csuQGl clWQaq"><a href="/karir" class="sc-gZMcBi sc-kAzzGY wYtXl">Karir</a></li>
+                                        <li class="sc-csuQGl clWQaq"><a href="/kontak" class="sc-gZMcBi sc-kAzzGY wYtXl">Kontak
+                                                Kami</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="sc-htpNat iZWQZt">
+                                <h4 class="sc-gZMcBi cCJIfu poppins">Follow us on</h4>
+                                <div class="sc-htpNat iZWQZt">
+                                    <ul class="sc-gipzik kRcWov">
+                                        <li class="sc-csuQGl clWQaq"><a href="#" target="_blank" rel="noopener noreferrer" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">
+                                                <div class="sc-bdVaJa iwhGZe"><img src="https://static.sehatq.com/web/assets/img/socials/social_fb_grey.svg?v=6" alt="Facebook" height="14" width="14" class="sc-jzJRlG jJeLuK" /><span class="sc-gZMcBi hrxLF">Facebook</span></div>
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
 
-                            </p>
+                        <div class="sc-kpOJdX cBXViV">
+                            <div class="sc-htpNat bGGnxF">
+                                <h4 class="sc-gZMcBi cCJIfu poppins">Dukungan</h4>
+                                <div class="sc-htpNat iZWQZt">
+                                    <ul class="sc-gipzik kRcWov">
+                                        <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Syarat
+                                                dan Ketentuan</a></li>
+                                        <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Privacy
+                                                Policy</a></li>
+                                        <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Kebijakan
+                                                Editorial</a></li>
+                                        <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl">Direktori
+                                                Tag</a></li>
+                                        <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Pusat
+                                                Bantuan</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="sc-htpNat iZWQZt">
+                                <h4 class="sc-gZMcBi cCJIfu poppins">Daftar Menjadi Mitra</h4>
+                                <div class="sc-htpNat iZWQZt">
+                                    <ul class="sc-gipzik kRcWov">
+                                        <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Merchant</a></li>
+                                        <li class="sc-csuQGl clWQaq"><a href="/mitra-faskes" class="sc-gZMcBi sc-kAzzGY wYtXl">Mitra
+                                                Faskes</a></li>
+                                        <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl">Mitra
+                                                Perusahaan</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sc-kpOJdX cBXViV">
+                            <div class="sc-htpNat iZWQZt">
+                                <h4 class="sc-gZMcBi cCJIfu poppins">Available On</h4>
+                                <div class="sc-htpNat iZWQZt"><a href="#" target="_blank" rel="noopener noreferrer" class="sc-gZMcBi sc-kAzzGY EXJwv"><img src="https://static.sehatq.com/web/assets/img/appstore.png?v=6" alt="App Store" width="150" height="50" class="sc-jzJRlG jJeLuK" /></a></div>
+                                <div class="sc-htpNat cwbsJi"><a href="#" target="_blank" rel="noopener noreferrer" class="sc-gZMcBi sc-kAzzGY EXJwv"><img src="https://static.sehatq.com/web/assets/img/playstore.png?v=6" alt="Play Store" width="150" height="44.67" class="sc-jzJRlG jJeLuK" /></a></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </div>
+
+
+    </footer>
 
 
     <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
@@ -525,7 +634,7 @@
 
         gtag('config', 'UA-23581568-13');
     </script>
-  
+
 </body>
 
 </html>

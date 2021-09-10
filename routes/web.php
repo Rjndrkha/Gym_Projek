@@ -21,8 +21,8 @@ Route::get('/', function () {
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/homee', function () {
-    return view('homee');
+Route::get('/', function () {
+    return view('home');
   });
 
 Route::get('shop.index/', function () {
