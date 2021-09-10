@@ -50,7 +50,7 @@
         <div class="sc-kGXeez cnWkdM">
           <div class="sc-kpOJdX eiPQVA">
             <div class="sc-bdVaJa kaUAhW"><a href="#" class="sc-gZMcBi sc-kAzzGY EXJwv">
-                <img alt="SehatQ" src="logo2.png" width="50" height="40" class="sc-jzJRlG jJeLuK" /></a>
+                <img alt="SehatQ" src="landing/images/new/logo2.png" width="50" height="40" class="sc-jzJRlG jJeLuK" /></a>
               <div class="sc-htpNat bJvWJi"><img alt="SehatQ"
                   src="https://static.sehatq.com/web/assets/img/logo-kemenkes.svg?v=6" width="80" height="40"
                   class="sc-jzJRlG jJeLuK" /></div>
@@ -139,7 +139,8 @@
 
 
               <li class="sc-hMqMXs LyYQD"><a href="/promo" class="sc-gZMcBi sc-kAzzGY EXJwv sc-eNQAEJ gHFNcT">
-                  <div class="sc-htpNat cagtoI"><img src="food.png" alt="Promo" height="54" class="sc-jzJRlG jJeLuK" />
+                  <div class="sc-htpNat cagtoI">
+                    <img src="landing/images/new/food.png" alt="Promo" height="54" class="sc-jzJRlG jJeLuK" />
                   </div>Cek Kalori & Olahraga Ideal
                 </a></li>
 

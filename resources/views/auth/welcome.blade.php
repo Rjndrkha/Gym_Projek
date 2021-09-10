@@ -131,49 +131,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-
-                    <div class="grid-container">
-                        <div class="grid-item">
-                            <label class="card">
-
-                                <span class="plan-details">
-                                    <img src="https://hellosehat.com/images/maleIcon.svg" style="height: 100px;" alt="alternative">
-                                    <span class="plan-type">Konsultasi Dengan Mentor Gym</span>
-
-                                </span>
-                            </label>
-                        </div>
-
-                        <div class="grid-item">
-                            <label class="card">
-
-
-                                <span class="plan-details">
-                                    <img src="https://hellosehat.com/images/maleIcon.svg" style="height: 100px;" alt="alternative">
-                                    <span class="plan-type">Cari Tempat Gym</span>
-
-                                </span>
-                            </label>
-                        </div>
-
-                        <div class="grid-item">
-                            <label class="card">
-
-
-                                <span class="plan-details">
-                                    <img src="https://hellosehat.com/images/maleIcon.svg" style="height: 100px;" alt="alternative">
-                                    <span class="plan-type">Info Kesehatan otot & Tubuh</span>
-
-                                </span>
-                            </label>
-                        </div>
-
-
+                    <div class="text-container">
+                        <h1 class="h1-large"><span class="blue">Young StartUp</span> Gym  Application</h1>
+                        <p class="p-large">Use Our Website To ...</p>
+                        <a class="btn-solid-lg page-scroll" href="{{url('homee')}}">Start ...!</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of div -->
                 <div class="col-lg-6">
                     <div class="image-container">
-                        <img class="img-fluid" src="#" alt="alternative">
+                        <img class="img-fluid" src="landing/images/header-teamwork.svg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
