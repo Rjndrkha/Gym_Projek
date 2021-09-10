@@ -25,10 +25,7 @@ Route::get('/homee', function () {
     return view('homee');
   });
 
-Route::get('/shop', function () {
-    return view('shop');
-  });
-Route::get('shop.shopmain/', function () {
-    return view('shop.shopmain');
+Route::get('shop.index/', function () {
+    return view('shop.index');
   });
   

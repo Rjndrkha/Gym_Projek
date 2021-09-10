@@ -113,7 +113,7 @@
           <nav class="sc-ckVGcZ gbheBT">
             <ul class="sc-jKJlTe kOFaVA">
               <li class="sc-hMqMXs LyYQD">
-                <a href="{{url('shop.shopmain')}}" class="sc-gZMcBi sc-kAzzGY EXJwv sc-eNQAEJ gHFNcT">
+                <a href="{{url('shop.index/')}}" class="sc-gZMcBi sc-kAzzGY EXJwv sc-eNQAEJ gHFNcT">
                   <div class="sc-htpNat cagtoI"><img
                       src="https://cms.sehatq.com/cdn-cgi/image/f=auto,width=54,height=54,fit=pad,quality=100/public/img/revamp_icon/feature_icon_toko_active.png?v=6"
                       alt="Toko" height="54" class="sc-jzJRlG jJeLuK" />
