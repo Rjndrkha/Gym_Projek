@@ -291,7 +291,8 @@
           <footer class="sc-htpNat cnzSqm">
             <div class="sc-chPdSV ckEKKQ">
               <div class="sc-htpNat hZywIq">
-                <div class="sc-htpNat bGGnxF"><img alt="SehatQ" src="logo2.png" width="150" height="150" class="sc-jzJRlG jJeLuK" /></div>
+                <div class="sc-htpNat bGGnxF">
+                  <img alt="SehatQ" src="landing/images/new/logo2.png" width="150" height="150" class="sc-jzJRlG jJeLuK" /></div>
                 <div class="sc-kGXeez iygvnT">
                   <div class="sc-kpOJdX gxxeLD">
                     <div class="sc-htpNat bSPBUS">
