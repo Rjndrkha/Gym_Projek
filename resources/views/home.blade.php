@@ -7,28 +7,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
   <meta name="language" content="id" />
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, user-scalable=no" />
   <meta name="theme-color" content="#70CBCF" />
   <meta property="fb:app_id" content="698840740537290" />
   <title>Nge Gym | Tanya Trainner dan Tips Hidup Sehat</title>
 
   <link rel="icon" type="image/png" sizes="32x32" href="logo2.png" />
 
-  <link rel="preload" as="font"
-    href="https://static.sehatq.com/web/assets/fonts/opensans/OpenSans-Regular-v17.woff2?v=6" type="font/woff2"
-    crossorigin="anonymous" />
-  <link rel="preload" as="font"
-    href="https://static.sehatq.com/web/assets/fonts/opensans/OpenSans-SemiBold-v17.woff2?v=6" type="font/woff2"
-    crossorigin="anonymous" />
-  <link rel="preload" as="font" href="https://static.sehatq.com/web/assets/fonts/opensans/OpenSans-Bold-v17.woff2?v=6"
-    type="font/woff2" crossorigin="anonymous" />
-  <link rel="preload" as="font" href="https://static.sehatq.com/web/assets/fonts/poppins/Poppins-Regular-v9.woff2?v=6"
-    type="font/woff2" crossorigin="anonymous" />
-  <link rel="preload" as="font" href="https://static.sehatq.com/web/assets/fonts/poppins/Poppins-SemiBold-v9.woff2?v=6"
-    type="font/woff2" crossorigin="anonymous" />
-  <link rel="preload" as="font" href="https://static.sehatq.com/web/assets/fonts/sehatq/font-sehatq.woff2?v=6"
-    type="font/woff2" crossorigin="anonymous" />
+  <link rel="preload" as="font" href="https://static.sehatq.com/web/assets/fonts/opensans/OpenSans-Regular-v17.woff2?v=6" type="font/woff2" crossorigin="anonymous" />
+  <link rel="preload" as="font" href="https://static.sehatq.com/web/assets/fonts/opensans/OpenSans-SemiBold-v17.woff2?v=6" type="font/woff2" crossorigin="anonymous" />
+  <link rel="preload" as="font" href="https://static.sehatq.com/web/assets/fonts/opensans/OpenSans-Bold-v17.woff2?v=6" type="font/woff2" crossorigin="anonymous" />
+  <link rel="preload" as="font" href="https://static.sehatq.com/web/assets/fonts/poppins/Poppins-Regular-v9.woff2?v=6" type="font/woff2" crossorigin="anonymous" />
+  <link rel="preload" as="font" href="https://static.sehatq.com/web/assets/fonts/poppins/Poppins-SemiBold-v9.woff2?v=6" type="font/woff2" crossorigin="anonymous" />
+  <link rel="preload" as="font" href="https://static.sehatq.com/web/assets/fonts/sehatq/font-sehatq.woff2?v=6" type="font/woff2" crossorigin="anonymous" />
 
 
   <link rel="stylesheet" href="{!! asset('home/style.css') !!}">
@@ -51,9 +42,7 @@
           <div class="sc-kpOJdX eiPQVA">
             <div class="sc-bdVaJa kaUAhW"><a href="#" class="sc-gZMcBi sc-kAzzGY EXJwv">
                 <img alt="SehatQ" src="landing/images/new/logo2.png" width="50" height="40" class="sc-jzJRlG jJeLuK" /></a>
-              <div class="sc-htpNat bJvWJi"><img alt="SehatQ"
-                  src="https://static.sehatq.com/web/assets/img/logo-kemenkes.svg?v=6" width="80" height="40"
-                  class="sc-jzJRlG jJeLuK" /></div>
+              <div class="sc-htpNat bJvWJi"><img alt="SehatQ" src="https://static.sehatq.com/web/assets/img/logo-kemenkes.svg?v=6" width="80" height="40" class="sc-jzJRlG jJeLuK" /></div>
 
             </div>
           </div>
@@ -64,8 +53,7 @@
                 <div class="sc-iAyFgw bPzenj">
                   <div class="sc-hSdWYo fPDUWa">
                     <div class="sc-cvbbAY cTYILf"><i class="sc-EHOje lntAKA"></i></div>
-                    <div class="sc-jlyJG jpaAuv"><input type="text" placeholder="Search For Info" value=""
-                        name="searchInput" autoComplete="off" class="sc-jAaTju ieDlNt" /></div>
+                    <div class="sc-jlyJG jpaAuv"><input type="text" placeholder="Search For Info" value="" name="searchInput" autoComplete="off" class="sc-jAaTju ieDlNt" /></div>
                   </div>
                 </div><input type="submit" hidden="" />
               </form>
@@ -78,9 +66,7 @@
               <a class="sc-gZMcBi sc-kAzzGY EXJwv Anchor-NexLink-Function" style="margin-left: 20px;">
 
                 <h5>
-                <img alt="SehatQ Profile"
-                  src="https://www.sehatq.com/public/img/icon/profile.svg" width="30" height="30"
-                  class="sc-jzJRlG jJeLuK" />Welcome Rajendra
+                  <img alt="SehatQ Profile" src="https://www.sehatq.com/public/img/icon/profile.svg" width="30" height="30" class="sc-jzJRlG jJeLuK" />Welcome Rajendra
                 </h5>
 
               </a>
@@ -114,29 +100,24 @@
             <ul class="sc-jKJlTe kOFaVA">
               <li class="sc-hMqMXs LyYQD">
                 <a href="{{url('shop.index/')}}" class="sc-gZMcBi sc-kAzzGY EXJwv sc-eNQAEJ gHFNcT">
-                  <div class="sc-htpNat cagtoI"><img
-                      src="https://cms.sehatq.com/cdn-cgi/image/f=auto,width=54,height=54,fit=pad,quality=100/public/img/revamp_icon/feature_icon_toko_active.png?v=6"
-                      alt="Toko" height="54" class="sc-jzJRlG jJeLuK" />
+                  <div class="sc-htpNat cagtoI"><img src="https://cms.sehatq.com/cdn-cgi/image/f=auto,width=54,height=54,fit=pad,quality=100/public/img/revamp_icon/feature_icon_toko_active.png?v=6" alt="Toko" height="54" class="sc-jzJRlG jJeLuK" />
                   </div>Toko Suplement
                 </a>
               </li>
 
               <li class="sc-hMqMXs LyYQD">
                 <a href="{{url('artikel.index/')}}" class="sc-gZMcBi sc-kAzzGY EXJwv sc-eNQAEJ gHFNcT">
-                  <div class="sc-htpNat cagtoI"><img
-                      src="https://cms.sehatq.com/cdn-cgi/image/f=auto,width=54,height=54,fit=pad,quality=100/public/img/revamp_icon/feature_icon_article_active.png?v=6"
-                      alt="Artikel" height="54" class="sc-jzJRlG jJeLuK" /></div>Artikel
-                </a></li>
+                  <div class="sc-htpNat cagtoI"><img src="https://cms.sehatq.com/cdn-cgi/image/f=auto,width=54,height=54,fit=pad,quality=100/public/img/revamp_icon/feature_icon_article_active.png?v=6" alt="Artikel" height="54" class="sc-jzJRlG jJeLuK" /></div>Artikel
+                </a>
+              </li>
 
-              <li class="sc-hMqMXs LyYQD"><a href="/dokter" class="sc-gZMcBi sc-kAzzGY EXJwv sc-eNQAEJ gHFNcT">
-                  <div class="sc-htpNat cagtoI"><img
-                      src="https://cms.sehatq.com/cdn-cgi/image/f=auto,width=54,height=54,fit=pad,quality=100/public/img/revamp_icon/feature_icon_hcp_active.png?v=6"
-                      alt="Dokter" height="54" class="sc-jzJRlG jJeLuK" /></div> Konsultasi Trainer
-                </a></li>
+              <li class="sc-hMqMXs LyYQD">
+                <a href="/dokter" class="sc-gZMcBi sc-kAzzGY EXJwv sc-eNQAEJ gHFNcT">
+                  <div class="sc-htpNat cagtoI"><img src="https://cms.sehatq.com/cdn-cgi/image/f=auto,width=54,height=54,fit=pad,quality=100/public/img/revamp_icon/feature_icon_hcp_active.png?v=6" alt="Dokter" height="54" class="sc-jzJRlG jJeLuK" /></div> Konsultasi Trainer
+                </a>
+              </li>
               <li class="sc-hMqMXs LyYQD"><a href="/faskes" class="sc-gZMcBi sc-kAzzGY EXJwv sc-eNQAEJ gHFNcT">
-                  <div class="sc-htpNat cagtoI"><img
-                      src="https://cms.sehatq.com/cdn-cgi/image/f=auto,width=54,height=54,fit=pad,quality=100/public/img/revamp_icon/feature_icon_hcf_active.png?v=6"
-                      alt="Rumah Sakit" height="54" class="sc-jzJRlG jJeLuK" /></div>Gym Terdekat
+                  <div class="sc-htpNat cagtoI"><img src="https://cms.sehatq.com/cdn-cgi/image/f=auto,width=54,height=54,fit=pad,quality=100/public/img/revamp_icon/feature_icon_hcf_active.png?v=6" alt="Rumah Sakit" height="54" class="sc-jzJRlG jJeLuK" /></div>Gym Terdekat
                 </a></li>
 
 
@@ -146,13 +127,13 @@
                   </div>Cek Kalori & Olahraga Ideal
                 </a></li>
 
-              <li class="sc-hMqMXs LyYQD"><a href="/promo" class="sc-gZMcBi sc-kAzzGY EXJwv sc-eNQAEJ gHFNcT">
+              <li class="sc-hMqMXs LyYQD">
+                <a href="{{url('vidtutor.index/')}}" class="sc-gZMcBi sc-kAzzGY EXJwv sc-eNQAEJ gHFNcT">
                   <div class="sc-htpNat cagtoI">
-                    <img
-                      src="https://cms.sehatq.com/cdn-cgi/image/f=auto,width=54,height=54,fit=pad,quality=100/public/img/revamp_icon/feature_icon_procedure_active.png?v=6"
-                      alt="Promo" height="54" class="sc-jzJRlG jJeLuK" />
+                    <img src="https://cms.sehatq.com/cdn-cgi/image/f=auto,width=54,height=54,fit=pad,quality=100/public/img/revamp_icon/feature_icon_procedure_active.png?v=6" alt="Promo" height="54" class="sc-jzJRlG jJeLuK" />
                   </div>Gym Tips & Teknik
-                </a></li>
+                </a>
+              </li>
 
           </nav>
         </div>
@@ -169,46 +150,33 @@
                     <h2 class="sc-gZMcBi fZVDmi poppins">Fasilitas Kesehatan</h2>
                     <p class="sc-gZMcBi dNSTnZ">Detail faskes seluruh Indonesia dengan pelayanan paling optimal</p>
                   </div>
-                  <div class="sc-kpOJdX kHHyUN"><a href="/faskes"
-                      class="sc-gZMcBi sc-kAzzGY gInqXg sc-ifAKCX bEbdMK">Lihat Semua Faskes</a></div>
+                  <div class="sc-kpOJdX kHHyUN"><a href="/faskes" class="sc-gZMcBi sc-kAzzGY gInqXg sc-ifAKCX bEbdMK">Lihat Semua Faskes</a></div>
                 </div>
                 <div class="sc-kGXeez Vrhaj">
                   <div class="sc-kpOJdX klSlLN">
-                    <div class="sc-htpNat jezFJe"><a href="/faskes/lab-kimia-farma-pamulang-2"
-                        class="sc-gZMcBi sc-kAzzGY jXGOHm">
-                        <picture class="sc-feJyhm fLjtSE"><img alt="Kimia Farma Pamulang"
-                            src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=398,height=298,fit=pad,background=white,quality=100/cms/home/hcf/1629081761.png"
-                            class="sc-jzJRlG ebOTac sc-iELTvK ekmrQm" /></picture>
+                    <div class="sc-htpNat jezFJe"><a href="/faskes/lab-kimia-farma-pamulang-2" class="sc-gZMcBi sc-kAzzGY jXGOHm">
+                        <picture class="sc-feJyhm fLjtSE"><img alt="Kimia Farma Pamulang" src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=398,height=298,fit=pad,background=white,quality=100/cms/home/hcf/1629081761.png" class="sc-jzJRlG ebOTac sc-iELTvK ekmrQm" /></picture>
                         <div class="sc-VigVT cKrMvk"></div>
                         <div class="sc-VigVT lbXbKt">
-                          <h3 class="sc-gZMcBi gLMtOK poppins">Kimia Farma Pamulang</h3><span display="inline-block"
-                            class="sc-gZMcBi ipeQfm">Pamulang, Tangerang Selatan</span>
+                          <h3 class="sc-gZMcBi gLMtOK poppins">Kimia Farma Pamulang</h3><span display="inline-block" class="sc-gZMcBi ipeQfm">Pamulang, Tangerang Selatan</span>
                         </div>
                       </a></div>
                   </div>
                   <div class="sc-kpOJdX klSlLN">
-                    <div class="sc-htpNat jezFJe"><a href="/faskes/rumah-sakit-eka-hospital-bsd"
-                        class="sc-gZMcBi sc-kAzzGY jXGOHm">
-                        <picture class="sc-feJyhm fLjtSE"><img alt="Eka Hospital BSD"
-                            src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=398,height=298,fit=pad,background=white,quality=100/cms/home/hcf/1629082592.jpeg"
-                            class="sc-jzJRlG ebOTac sc-iELTvK ekmrQm" /></picture>
+                    <div class="sc-htpNat jezFJe"><a href="/faskes/rumah-sakit-eka-hospital-bsd" class="sc-gZMcBi sc-kAzzGY jXGOHm">
+                        <picture class="sc-feJyhm fLjtSE"><img alt="Eka Hospital BSD" src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=398,height=298,fit=pad,background=white,quality=100/cms/home/hcf/1629082592.jpeg" class="sc-jzJRlG ebOTac sc-iELTvK ekmrQm" /></picture>
                         <div class="sc-VigVT cKrMvk"></div>
                         <div class="sc-VigVT lbXbKt">
-                          <h3 class="sc-gZMcBi gLMtOK poppins">Eka Hospital BSD</h3><span display="inline-block"
-                            class="sc-gZMcBi ipeQfm">Serpong, Tangerang Selatan</span>
+                          <h3 class="sc-gZMcBi gLMtOK poppins">Eka Hospital BSD</h3><span display="inline-block" class="sc-gZMcBi ipeQfm">Serpong, Tangerang Selatan</span>
                         </div>
                       </a></div>
                   </div>
                   <div class="sc-kpOJdX klSlLN">
-                    <div class="sc-htpNat jezFJe"><a href="/faskes/lab-prodia-kramat-jakarta-pusat"
-                        class="sc-gZMcBi sc-kAzzGY jXGOHm">
-                        <picture class="sc-feJyhm fLjtSE"><img alt="Prodia Kramat Jakarta Pusat"
-                            src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=398,height=298,fit=pad,background=white,quality=100/cms/home/hcf/1629082860.png"
-                            class="sc-jzJRlG ebOTac sc-iELTvK ekmrQm" /></picture>
+                    <div class="sc-htpNat jezFJe"><a href="/faskes/lab-prodia-kramat-jakarta-pusat" class="sc-gZMcBi sc-kAzzGY jXGOHm">
+                        <picture class="sc-feJyhm fLjtSE"><img alt="Prodia Kramat Jakarta Pusat" src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=398,height=298,fit=pad,background=white,quality=100/cms/home/hcf/1629082860.png" class="sc-jzJRlG ebOTac sc-iELTvK ekmrQm" /></picture>
                         <div class="sc-VigVT cKrMvk"></div>
                         <div class="sc-VigVT lbXbKt">
-                          <h3 class="sc-gZMcBi gLMtOK poppins">Prodia Kramat Jakarta Pusat</h3><span
-                            display="inline-block" class="sc-gZMcBi ipeQfm">Senen, Jakarta Pusat</span>
+                          <h3 class="sc-gZMcBi gLMtOK poppins">Prodia Kramat Jakarta Pusat</h3><span display="inline-block" class="sc-gZMcBi ipeQfm">Senen, Jakarta Pusat</span>
                         </div>
                       </a></div>
                   </div>
@@ -221,8 +189,7 @@
                   <div class="sc-kpOJdX rRICf">
                     <h2 class="sc-gZMcBi fZVDmi poppins">Berita Seputar Kesehatan</h2>
                   </div>
-                  <div class="sc-kpOJdX kHHyUN"><a href="/artikel"
-                      class="sc-gZMcBi sc-kAzzGY gInqXg sc-ifAKCX bEbdMK">Lihat Semua Artikel</a></div>
+                  <div class="sc-kpOJdX kHHyUN"><a href="/artikel" class="sc-gZMcBi sc-kAzzGY gInqXg sc-ifAKCX bEbdMK">Lihat Semua Artikel</a></div>
                 </div>
 
 
@@ -237,27 +204,18 @@
                 <div class="slick-slider sc-kTUwUJ eRjfta home-banner-slider promo-banner-slider slick-initialized">
                   <div class="slick-list">
                     <div class="slick-track" style="width:100%;left:0%">
-                      <div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1"
-                        aria-hidden="false" style="outline:none;width:25%">
+                      <div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline:none;width:25%">
                         <div>
                           <div tabindex="-1" style="width:100%;display:inline-block" class="sc-htpNat iZWQZt">
-                            <div class="sc-htpNat jDeDVJ"><a
-                                href="https://toko.sehatq.com/produk/madame-gie-safety-you-face-mask-box-masker-kesehatan-biru-muda-50-pcs"
-                                class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink">
+                            <div class="sc-htpNat jDeDVJ"><a href="https://toko.sehatq.com/produk/madame-gie-safety-you-face-mask-box-masker-kesehatan-biru-muda-50-pcs" class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink">
                                 <div class="sc-htpNat iZWQZt">
-                                  <picture
-                                    src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=200,height=200,fit=pad,background=white,quality=100/tokoq/products/variants/5wvt2tpeowyv2xnvd3uznhezs48q/16135febf8ba6fdffeb50829c0b09f2f649c659f27f200cfdab438675c11b99c"
-                                    class="sc-feJyhm gPqnxL"><img
-                                      alt="Madame Gie Safety You Face Mask Box - Masker Kesehatan - Biru Muda (50 Pcs)"
-                                      src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=200,height=200,fit=pad,background=white,quality=100/tokoq/products/variants/5wvt2tpeowyv2xnvd3uznhezs48q/16135febf8ba6fdffeb50829c0b09f2f649c659f27f200cfdab438675c11b99c"
-                                      class="sc-jzJRlG ebOTac sc-iELTvK fYycae" /></picture>
+                                  <picture src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=200,height=200,fit=pad,background=white,quality=100/tokoq/products/variants/5wvt2tpeowyv2xnvd3uznhezs48q/16135febf8ba6fdffeb50829c0b09f2f649c659f27f200cfdab438675c11b99c" class="sc-feJyhm gPqnxL"><img alt="Madame Gie Safety You Face Mask Box - Masker Kesehatan - Biru Muda (50 Pcs)" src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=200,height=200,fit=pad,background=white,quality=100/tokoq/products/variants/5wvt2tpeowyv2xnvd3uznhezs48q/16135febf8ba6fdffeb50829c0b09f2f649c659f27f200cfdab438675c11b99c" class="sc-jzJRlG ebOTac sc-iELTvK fYycae" /></picture>
                                 </div>
                                 <div class="sc-htpNat iHeaGy"></div>
                                 <h3 class="sc-gZMcBi edvoPA poppins">Madame Gie Safety You Face Mask Box - Masker
                                   Kesehatan - Biru Muda (50 Pcs)</h3>
                               </a>
-                              <div class="sc-htpNat jfmFtM"><span class="sc-gZMcBi bbmEpJ">Rp 250.000</span><span
-                                  class="sc-gZMcBi jojgDq">Mulai dari</span><span class="sc-gZMcBi zoxRj">Rp
+                              <div class="sc-htpNat jfmFtM"><span class="sc-gZMcBi bbmEpJ">Rp 250.000</span><span class="sc-gZMcBi jojgDq">Mulai dari</span><span class="sc-gZMcBi zoxRj">Rp
                                   17.500</span></div>
                               <div class="sc-htpNat fZTXVr"><span class="sc-gZMcBi jbrBXg">Potensi hemat 93%</span>
                               </div>
@@ -265,27 +223,18 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false"
-                        style="outline:none;width:25%">
+                      <div data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline:none;width:25%">
                         <div>
                           <div tabindex="-1" style="width:100%;display:inline-block" class="sc-htpNat iZWQZt">
-                            <div class="sc-htpNat jDeDVJ"><a
-                                href="https://toko.sehatq.com/produk/madame-gie-safety-you-face-mask-box-masker-kesehatan-hitam-50-pcs"
-                                class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink">
+                            <div class="sc-htpNat jDeDVJ"><a href="https://toko.sehatq.com/produk/madame-gie-safety-you-face-mask-box-masker-kesehatan-hitam-50-pcs" class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink">
                                 <div class="sc-htpNat iZWQZt">
-                                  <picture
-                                    src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=200,height=200,fit=pad,background=white,quality=100/tokoq/products/variants/jkt06vg03jb3spzfnwm5dybsdmfb/16135febf8ba6fdffeb50829c0b09f2f649c659f27f200cfdab438675c11b99c"
-                                    class="sc-feJyhm gPqnxL"><img
-                                      alt="Madame Gie Safety You Face Mask Box - Masker Kesehatan - Hitam (50 Pcs)"
-                                      src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=200,height=200,fit=pad,background=white,quality=100/tokoq/products/variants/jkt06vg03jb3spzfnwm5dybsdmfb/16135febf8ba6fdffeb50829c0b09f2f649c659f27f200cfdab438675c11b99c"
-                                      class="sc-jzJRlG ebOTac sc-iELTvK fYycae" /></picture>
+                                  <picture src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=200,height=200,fit=pad,background=white,quality=100/tokoq/products/variants/jkt06vg03jb3spzfnwm5dybsdmfb/16135febf8ba6fdffeb50829c0b09f2f649c659f27f200cfdab438675c11b99c" class="sc-feJyhm gPqnxL"><img alt="Madame Gie Safety You Face Mask Box - Masker Kesehatan - Hitam (50 Pcs)" src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=200,height=200,fit=pad,background=white,quality=100/tokoq/products/variants/jkt06vg03jb3spzfnwm5dybsdmfb/16135febf8ba6fdffeb50829c0b09f2f649c659f27f200cfdab438675c11b99c" class="sc-jzJRlG ebOTac sc-iELTvK fYycae" /></picture>
                                 </div>
                                 <div class="sc-htpNat iHeaGy"></div>
                                 <h3 class="sc-gZMcBi edvoPA poppins">Madame Gie Safety You Face Mask Box - Masker
                                   Kesehatan - Hitam (50 Pcs)</h3>
                               </a>
-                              <div class="sc-htpNat jfmFtM"><span class="sc-gZMcBi bbmEpJ">Rp 250.000</span><span
-                                  class="sc-gZMcBi jojgDq">Mulai dari</span><span class="sc-gZMcBi zoxRj">Rp
+                              <div class="sc-htpNat jfmFtM"><span class="sc-gZMcBi bbmEpJ">Rp 250.000</span><span class="sc-gZMcBi jojgDq">Mulai dari</span><span class="sc-gZMcBi zoxRj">Rp
                                   20.000</span></div>
                               <div class="sc-htpNat fZTXVr"><span class="sc-gZMcBi jbrBXg">Potensi hemat 92%</span>
                               </div>
@@ -293,25 +242,17 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="2" class="slick-slide slick-active" tabindex="-1" aria-hidden="false"
-                        style="outline:none;width:25%">
+                      <div data-index="2" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline:none;width:25%">
                         <div>
                           <div tabindex="-1" style="width:100%;display:inline-block" class="sc-htpNat iZWQZt">
-                            <div class="sc-htpNat jDeDVJ"><a
-                                href="https://toko.sehatq.com/produk/madame-gie-protect-you-kn95-mask"
-                                class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink">
+                            <div class="sc-htpNat jDeDVJ"><a href="https://toko.sehatq.com/produk/madame-gie-protect-you-kn95-mask" class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink">
                                 <div class="sc-htpNat iZWQZt">
-                                  <picture
-                                    src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=200,height=200,fit=pad,background=white,quality=100/tokoq/products/variants/ht03dmrbgi1s6vb67hrk50jj048k/16135febf8ba6fdffeb50829c0b09f2f649c659f27f200cfdab438675c11b99c"
-                                    class="sc-feJyhm gPqnxL"><img alt="Madame Gie Protect You KN95 Mask - 5 Pcs"
-                                      src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=200,height=200,fit=pad,background=white,quality=100/tokoq/products/variants/ht03dmrbgi1s6vb67hrk50jj048k/16135febf8ba6fdffeb50829c0b09f2f649c659f27f200cfdab438675c11b99c"
-                                      class="sc-jzJRlG ebOTac sc-iELTvK fYycae" /></picture>
+                                  <picture src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=200,height=200,fit=pad,background=white,quality=100/tokoq/products/variants/ht03dmrbgi1s6vb67hrk50jj048k/16135febf8ba6fdffeb50829c0b09f2f649c659f27f200cfdab438675c11b99c" class="sc-feJyhm gPqnxL"><img alt="Madame Gie Protect You KN95 Mask - 5 Pcs" src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=200,height=200,fit=pad,background=white,quality=100/tokoq/products/variants/ht03dmrbgi1s6vb67hrk50jj048k/16135febf8ba6fdffeb50829c0b09f2f649c659f27f200cfdab438675c11b99c" class="sc-jzJRlG ebOTac sc-iELTvK fYycae" /></picture>
                                 </div>
                                 <div class="sc-htpNat iHeaGy"></div>
                                 <h3 class="sc-gZMcBi edvoPA poppins">Madame Gie Protect You KN95 Mask - 5 Pcs</h3>
                               </a>
-                              <div class="sc-htpNat jfmFtM"><span class="sc-gZMcBi bbmEpJ">Rp 150.000</span><span
-                                  class="sc-gZMcBi jojgDq">Mulai dari</span><span class="sc-gZMcBi zoxRj">Rp
+                              <div class="sc-htpNat jfmFtM"><span class="sc-gZMcBi bbmEpJ">Rp 150.000</span><span class="sc-gZMcBi jojgDq">Mulai dari</span><span class="sc-gZMcBi zoxRj">Rp
                                   15.000</span></div>
                               <div class="sc-htpNat fZTXVr"><span class="sc-gZMcBi jbrBXg">Potensi hemat 90%</span>
                               </div>
@@ -319,27 +260,18 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="3" class="slick-slide slick-active" tabindex="-1" aria-hidden="false"
-                        style="outline:none;width:25%">
+                      <div data-index="3" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline:none;width:25%">
                         <div>
                           <div tabindex="-1" style="width:100%;display:inline-block" class="sc-htpNat iZWQZt">
-                            <div class="sc-htpNat jDeDVJ"><a
-                                href="https://toko.sehatq.com/produk/madame-gie-safety-you-face-mask-masker-kesehatan-biru-muda-10-pcs"
-                                class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink">
+                            <div class="sc-htpNat jDeDVJ"><a href="https://toko.sehatq.com/produk/madame-gie-safety-you-face-mask-masker-kesehatan-biru-muda-10-pcs" class="sc-gZMcBi sc-kAzzGY jXGOHm Anchor-NexLink">
                                 <div class="sc-htpNat iZWQZt">
-                                  <picture
-                                    src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=200,height=200,fit=pad,background=white,quality=100/tokoq/products/variants/8xp7hh413tw5yy13w487xxzig6j5/16135febf8ba6fdffeb50829c0b09f2f649c659f27f200cfdab438675c11b99c"
-                                    class="sc-feJyhm gPqnxL"><img
-                                      alt="Madame Gie Safety You Face Mask - Masker Kesehatan - Biru Muda (10 Pcs)"
-                                      src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=200,height=200,fit=pad,background=white,quality=100/tokoq/products/variants/8xp7hh413tw5yy13w487xxzig6j5/16135febf8ba6fdffeb50829c0b09f2f649c659f27f200cfdab438675c11b99c"
-                                      class="sc-jzJRlG ebOTac sc-iELTvK fYycae" /></picture>
+                                  <picture src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=200,height=200,fit=pad,background=white,quality=100/tokoq/products/variants/8xp7hh413tw5yy13w487xxzig6j5/16135febf8ba6fdffeb50829c0b09f2f649c659f27f200cfdab438675c11b99c" class="sc-feJyhm gPqnxL"><img alt="Madame Gie Safety You Face Mask - Masker Kesehatan - Biru Muda (10 Pcs)" src="https://static.sehatq.com/cdn-cgi/image/f=auto,width=200,height=200,fit=pad,background=white,quality=100/tokoq/products/variants/8xp7hh413tw5yy13w487xxzig6j5/16135febf8ba6fdffeb50829c0b09f2f649c659f27f200cfdab438675c11b99c" class="sc-jzJRlG ebOTac sc-iELTvK fYycae" /></picture>
                                 </div>
                                 <div class="sc-htpNat iHeaGy"></div>
                                 <h3 class="sc-gZMcBi edvoPA poppins">Madame Gie Safety You Face Mask - Masker
                                   Kesehatan - Biru Muda (10 Pcs)</h3>
                               </a>
-                              <div class="sc-htpNat jfmFtM"><span class="sc-gZMcBi bbmEpJ">Rp 50.000</span><span
-                                  class="sc-gZMcBi jojgDq">Mulai dari</span><span class="sc-gZMcBi zoxRj">Rp
+                              <div class="sc-htpNat jfmFtM"><span class="sc-gZMcBi bbmEpJ">Rp 50.000</span><span class="sc-gZMcBi jojgDq">Mulai dari</span><span class="sc-gZMcBi zoxRj">Rp
                                   5.000</span></div>
                               <div class="sc-htpNat fZTXVr"><span class="sc-gZMcBi jbrBXg">Potensi hemat 90%</span>
                               </div>
@@ -355,11 +287,11 @@
 
 
           </div>
+
           <footer class="sc-htpNat cnzSqm">
             <div class="sc-chPdSV ckEKKQ">
               <div class="sc-htpNat hZywIq">
-                <div class="sc-htpNat bGGnxF"><img alt="SehatQ" src="logo2.png" width="150" height="150"
-                    class="sc-jzJRlG jJeLuK" /></div>
+                <div class="sc-htpNat bGGnxF"><img alt="SehatQ" src="logo2.png" width="150" height="150" class="sc-jzJRlG jJeLuK" /></div>
                 <div class="sc-kGXeez iygvnT">
                   <div class="sc-kpOJdX gxxeLD">
                     <div class="sc-htpNat bSPBUS">
@@ -369,13 +301,9 @@
                           dari
                           SehatQ. Gratis.</p>
                         <div class="sc-kGXeez kJqNCf">
-                          <div class="sc-kpOJdX cxogSu"><label class="sc-jbKcbu hJrbEv"><input type="radio"
-                                name="news_gender" class="sc-jqCOkK iXJHQM" /><span
-                                class="sc-dNLxif gzOlIM"><i></i>Perempuan</span></label>
+                          <div class="sc-kpOJdX cxogSu"><label class="sc-jbKcbu hJrbEv"><input type="radio" name="news_gender" class="sc-jqCOkK iXJHQM" /><span class="sc-dNLxif gzOlIM"><i></i>Perempuan</span></label>
                           </div>
-                          <div class="sc-kpOJdX kHHyUN"><label class="sc-jbKcbu hJrbEv"><input type="radio"
-                                name="news_gender" class="sc-jqCOkK iXJHQM" /><span
-                                class="sc-dNLxif gzOlIM"><i></i>Laki-laki</span></label>
+                          <div class="sc-kpOJdX kHHyUN"><label class="sc-jbKcbu hJrbEv"><input type="radio" name="news_gender" class="sc-jqCOkK iXJHQM" /><span class="sc-dNLxif gzOlIM"><i></i>Laki-laki</span></label>
                           </div>
                         </div>
                         <div class="sc-hqyNC lgqMMo">
@@ -384,12 +312,10 @@
                               <div class="sc-iAyFgw PPzwV">
                                 <div class="sc-hSdWYo lpuOSs">
                                   <div class="sc-jlyJG jpaAuv">
-                                    <input type="email" maxLength="150" placeholder="Email" value=""
-                                      class="sc-jAaTju bXLluq" />
+                                    <input type="email" maxLength="150" placeholder="Email" value="" class="sc-jAaTju bXLluq" />
                                   </div>
                                   <div class="sc-jWBwVP eWjpev">
-                                    <button type="button" class="sc-bxivhb fUcnfF sc-ifAKCX ebnevm"><i
-                                        class="sc-EHOje hNxZub"></i></button>
+                                    <button type="button" class="sc-bxivhb fUcnfF sc-ifAKCX ebnevm"><i class="sc-EHOje hNxZub"></i></button>
                                   </div>
                                 </div>
                               </div>
@@ -401,23 +327,13 @@
                     <div class="sc-htpNat iZWQZt">
                       <h4 class="sc-gZMcBi cCJIfu poppins">Metode Pembayaran</h4>
                       <div class="sc-kGXeez fvSaIv">
-                        <div class="sc-kpOJdX jdDXmT"><img
-                            src="https://static.sehatq.com/web/assets/img/payment/bca.png?v=6"
-                            alt="Metode pembayaran BCA" width="60" height="20" class="sc-jzJRlG jJeLuK" /></div>
-                        <div class="sc-kpOJdX jdDXmT"><img
-                            src="https://static.sehatq.com/web/assets/img/payment/mandiri.png?v=6"
-                            alt="Metode pembayaran Mandiri" width="65" height="18" class="sc-jzJRlG jJeLuK" /></div>
-                        <div class="sc-kpOJdX jdDXmT"><img
-                            src="https://static.sehatq.com/web/assets/img/payment/bni.png?v=6"
-                            alt="Metode pembayaran BNI" width="58" height="17" class="sc-jzJRlG jJeLuK" /></div>
-                        <div class="sc-kpOJdX jdDXmT"><img
-                            src="https://static.sehatq.com/web/assets/img/payment/permata.png?v=6"
-                            alt="Metode pembayaran Permata" width="84" height="20" class="sc-jzJRlG jJeLuK" /></div>
-                        <div class="sc-kpOJdX jdDXmT"><img src="https://static.sehatq.com/web/assets/img/cc.png?v=6"
-                            alt="Metode pembayaran Kartu Kredit" width="180.36" height="29" class="sc-jzJRlG jJeLuK" />
+                        <div class="sc-kpOJdX jdDXmT"><img src="https://static.sehatq.com/web/assets/img/payment/bca.png?v=6" alt="Metode pembayaran BCA" width="60" height="20" class="sc-jzJRlG jJeLuK" /></div>
+                        <div class="sc-kpOJdX jdDXmT"><img src="https://static.sehatq.com/web/assets/img/payment/mandiri.png?v=6" alt="Metode pembayaran Mandiri" width="65" height="18" class="sc-jzJRlG jJeLuK" /></div>
+                        <div class="sc-kpOJdX jdDXmT"><img src="https://static.sehatq.com/web/assets/img/payment/bni.png?v=6" alt="Metode pembayaran BNI" width="58" height="17" class="sc-jzJRlG jJeLuK" /></div>
+                        <div class="sc-kpOJdX jdDXmT"><img src="https://static.sehatq.com/web/assets/img/payment/permata.png?v=6" alt="Metode pembayaran Permata" width="84" height="20" class="sc-jzJRlG jJeLuK" /></div>
+                        <div class="sc-kpOJdX jdDXmT"><img src="https://static.sehatq.com/web/assets/img/cc.png?v=6" alt="Metode pembayaran Kartu Kredit" width="180.36" height="29" class="sc-jzJRlG jJeLuK" />
                         </div>
-                        <div class="sc-kpOJdX jdDXmT"><img src="https://static.sehatq.com/web/assets/img/gopay.png?v=6"
-                            alt="Metode pembayaran Gopay" width="73.84" height="16" class="sc-jzJRlG jJeLuK" /></div>
+                        <div class="sc-kpOJdX jdDXmT"><img src="https://static.sehatq.com/web/assets/img/gopay.png?v=6" alt="Metode pembayaran Gopay" width="73.84" height="16" class="sc-jzJRlG jJeLuK" /></div>
                       </div>
                     </div>
                   </div>
@@ -433,8 +349,7 @@
                           <li class="sc-csuQGl clWQaq"><a href="/telemed" class="sc-gZMcBi sc-kAzzGY wYtXl">Chat
                               Dokter</a>
                           </li>
-                          <li class="sc-csuQGl clWQaq"><a href="/penyakit"
-                              class="sc-gZMcBi sc-kAzzGY wYtXl">Penyakit</a></li>
+                          <li class="sc-csuQGl clWQaq"><a href="/penyakit" class="sc-gZMcBi sc-kAzzGY wYtXl">Penyakit</a></li>
                           <li class="sc-csuQGl clWQaq"><a href="/forum" class="sc-gZMcBi sc-kAzzGY wYtXl">Forum</a></li>
                           <li class="sc-csuQGl clWQaq"><a href="/review" class="sc-gZMcBi sc-kAzzGY wYtXl">Review</a>
                           </li>
@@ -449,8 +364,7 @@
                       <h4 class="sc-gZMcBi cCJIfu poppins">Perusahaan</h4>
                       <div class="sc-htpNat iZWQZt">
                         <ul class="sc-gipzik kRcWov">
-                          <li class="sc-csuQGl clWQaq"><a href="#"
-                              class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Tentang Kami</a></li>
+                          <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Tentang Kami</a></li>
                           <li class="sc-csuQGl clWQaq"><a href="/karir" class="sc-gZMcBi sc-kAzzGY wYtXl">Karir</a></li>
                           <li class="sc-csuQGl clWQaq"><a href="/kontak" class="sc-gZMcBi sc-kAzzGY wYtXl">Kontak
                               Kami</a>
@@ -462,12 +376,8 @@
                       <h4 class="sc-gZMcBi cCJIfu poppins">Follow us on</h4>
                       <div class="sc-htpNat iZWQZt">
                         <ul class="sc-gipzik kRcWov">
-                          <li class="sc-csuQGl clWQaq"><a href="#" target="_blank" rel="noopener noreferrer"
-                              class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">
-                              <div class="sc-bdVaJa iwhGZe"><img
-                                  src="https://static.sehatq.com/web/assets/img/socials/social_fb_grey.svg?v=6"
-                                  alt="Facebook" height="14" width="14" class="sc-jzJRlG jJeLuK" /><span
-                                  class="sc-gZMcBi hrxLF">Facebook</span></div>
+                          <li class="sc-csuQGl clWQaq"><a href="#" target="_blank" rel="noopener noreferrer" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">
+                              <div class="sc-bdVaJa iwhGZe"><img src="https://static.sehatq.com/web/assets/img/socials/social_fb_grey.svg?v=6" alt="Facebook" height="14" width="14" class="sc-jzJRlG jJeLuK" /><span class="sc-gZMcBi hrxLF">Facebook</span></div>
                             </a></li>
                         </ul>
                       </div>
@@ -479,19 +389,15 @@
                       <h4 class="sc-gZMcBi cCJIfu poppins">Dukungan</h4>
                       <div class="sc-htpNat iZWQZt">
                         <ul class="sc-gipzik kRcWov">
-                          <li class="sc-csuQGl clWQaq"><a href="#"
-                              class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Syarat
+                          <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Syarat
                               dan Ketentuan</a></li>
-                          <li class="sc-csuQGl clWQaq"><a href="#"
-                              class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Privacy
+                          <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Privacy
                               Policy</a></li>
-                          <li class="sc-csuQGl clWQaq"><a href="#"
-                              class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Kebijakan
+                          <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Kebijakan
                               Editorial</a></li>
                           <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl">Direktori
                               Tag</a></li>
-                          <li class="sc-csuQGl clWQaq"><a href="#"
-                              class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Pusat
+                          <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Pusat
                               Bantuan</a></li>
                         </ul>
                       </div>
@@ -500,8 +406,7 @@
                       <h4 class="sc-gZMcBi cCJIfu poppins">Daftar Menjadi Mitra</h4>
                       <div class="sc-htpNat iZWQZt">
                         <ul class="sc-gipzik kRcWov">
-                          <li class="sc-csuQGl clWQaq"><a href="#"
-                              class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Merchant</a></li>
+                          <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Merchant</a></li>
                           <li class="sc-csuQGl clWQaq"><a href="/mitra-faskes" class="sc-gZMcBi sc-kAzzGY wYtXl">Mitra
                               Faskes</a></li>
                           <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl">Mitra
@@ -513,14 +418,8 @@
                   <div class="sc-kpOJdX cBXViV">
                     <div class="sc-htpNat iZWQZt">
                       <h4 class="sc-gZMcBi cCJIfu poppins">Available On</h4>
-                      <div class="sc-htpNat iZWQZt"><a href="#" target="_blank" rel="noopener noreferrer"
-                          class="sc-gZMcBi sc-kAzzGY EXJwv"><img
-                            src="https://static.sehatq.com/web/assets/img/appstore.png?v=6" alt="App Store" width="150"
-                            height="50" class="sc-jzJRlG jJeLuK" /></a></div>
-                      <div class="sc-htpNat cwbsJi"><a href="#" target="_blank" rel="noopener noreferrer"
-                          class="sc-gZMcBi sc-kAzzGY EXJwv"><img
-                            src="https://static.sehatq.com/web/assets/img/playstore.png?v=6" alt="Play Store"
-                            width="150" height="44.67" class="sc-jzJRlG jJeLuK" /></a></div>
+                      <div class="sc-htpNat iZWQZt"><a href="#" target="_blank" rel="noopener noreferrer" class="sc-gZMcBi sc-kAzzGY EXJwv"><img src="https://static.sehatq.com/web/assets/img/appstore.png?v=6" alt="App Store" width="150" height="50" class="sc-jzJRlG jJeLuK" /></a></div>
+                      <div class="sc-htpNat cwbsJi"><a href="#" target="_blank" rel="noopener noreferrer" class="sc-gZMcBi sc-kAzzGY EXJwv"><img src="https://static.sehatq.com/web/assets/img/playstore.png?v=6" alt="Play Store" width="150" height="44.67" class="sc-jzJRlG jJeLuK" /></a></div>
                     </div>
                   </div>
                 </div>
@@ -544,7 +443,9 @@
         x[i].style.display = "none";
       }
       myIndex++;
-      if (myIndex > x.length) { myIndex = 1 }
+      if (myIndex > x.length) {
+        myIndex = 1
+      }
       x[myIndex - 1].style.display = "block";
       setTimeout(carousel, 5000); // Change image every 2 seconds
     }
