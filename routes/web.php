@@ -32,4 +32,14 @@ Route::get('shop.index/', function () {
 Route::get('artikel.index/', function () {
     return view('artikel.index');
   });
+
+
+//MOVIE
+Route::get('vidtutor.index/', function () {
+    return view('vidtutor.index');
+  });
+
+  Route::get('vidtutor.Tutor1/', function () {
+    return view('vidtutor.Tutor1');
+  });
   
