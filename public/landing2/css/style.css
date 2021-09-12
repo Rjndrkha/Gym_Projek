@@ -73,10 +73,11 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 [ End table content ]
 ======================================*/
 
+
 .grid {
   display: grid;
   grid-gap: var(--card-padding);
-  margin: 0 auto;
+  margin: inherit;
   max-width: 60em;
   padding: 0;
 }
@@ -91,6 +92,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
   background-color: #fff;
   border-radius: var(--card-radius);
   position: relative;
+  display: inline;
 }
 
 .card:hover {
@@ -155,6 +157,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
   flex-direction: column;
   padding: var(--card-padding);
   transition: border-color 0.2s ease-out;
+  align-items: center;
 }
 
 .card:hover .plan-details {

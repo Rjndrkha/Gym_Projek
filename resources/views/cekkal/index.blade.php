@@ -26,8 +26,10 @@
     <!-- Custom fonts for this template-->
     <link href="vidtutor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{!! asset('home/style.css') !!}">
+    <link rel="stylesheet" type="text/css" href="landing2/css/style.css">
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -99,6 +101,65 @@
             </div>
         </div>
 
+    </div>
+
+    <div id="services" class="cards-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="kelamin">Apa Jenis Kelamin Anda ?</p>
+                    <!-- Contact Form -->
+                    <form>
+                        <div class="grid">
+                            <label class="card" style="margin-right: 16px;">
+                                <input name="men" class="radio" type="radio" checked>
+
+                                <span class="plan-details">
+                                    <img src="https://hellosehat.com/images/maleIcon.svg" style="height: 100px;" alt="alternative">
+                                    <p class="kelamin"><span class="plan-type">Men</span></p>
+
+                                </span>
+                            </label>
+
+                            <label class="card">
+                                <input name="woman" class="radio" type="radio" checked>
+
+                                <span class="plan-details">
+                                    <img class="img-fluid" src="https://hellosehat.com/images/femaleIcon.svg" style="height: 100px;" alt="alternative">
+                                    <p class="kelamin"><span class="plan-type">Woman</span></p>
+
+                                </span>
+                            </label>
+
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="usia" required>
+                            <label class="label-control" for="usia">Berapa Usia Anda ? </label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="tinggi" required>
+                            <label class="label-control" for="tinggi">Berapa Tinggi Anda ?</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="berat" required>
+                            <label class="label-control" for="berat">Berapa Berat Badan Anda(KG) ?</label>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button">Submit</button>
+                        </div>
+                    </form>
+                    <!-- end of contact form -->
+
+                </div> <!-- end of col -->
+
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+
+    <div class="container">
+        <i class="fa fa-thumbs-o-up"> Info</i>
     </div>
 </body>
 
