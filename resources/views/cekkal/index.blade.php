@@ -21,7 +21,10 @@
     <link rel="preload" as="font" href="https://static.sehatq.com/web/assets/fonts/poppins/Poppins-SemiBold-v9.woff2?v=6" type="font/woff2" crossorigin="anonymous" />
     <link rel="preload" as="font" href="https://static.sehatq.com/web/assets/fonts/sehatq/font-sehatq.woff2?v=6" type="font/woff2" crossorigin="anonymous" />
 
-
+    <!-- Custom fonts for this template-->
+    <link href="vidtutor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template-->
+    <link href="vidtutor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{!! asset('home/style.css') !!}">
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -67,10 +70,10 @@
                             </a>
                             <a href="{{url('/')}}" class="sc-gZMcBi sc-kAzzGY EXJwv Anchor-NexLink-Function" style="margin-left: 20px;">
 
-                     
+
                                 <img alt="SehatQ Profile" src="landing/images/new/home.png" width="30" height="30" class="sc-jzJRlG jJeLuK" />
-                                    Main
-                   
+                                Main
+
                             </a>
                         </div>
                     </div>
@@ -78,6 +81,24 @@
 
             </div>
         </header>
+    </div>
+    <br>
+    <div class="pertama">
+        <div class="jumbotron">
+            <div class="tulisan-pertama">
+                <p><b>
+                        <h1>Kalkulator BMI
+                    </b></p>
+                </h1>
+                <p>Gunakan kalkulator ini untuk memeriksa Indeks Massa Tubuh (IMT) dan <br>
+                    mengecek apakah berat badan Anda ideal atau tidak.<br>
+                    Anda juga dapat menggunakannya untuk memeriksa indeks massa tubuh anak.
+                </p>
+                <img src="https://hellosehat.com/images/toolsIconBmi.svg" class="image" alt="Norway">
+
+            </div>
+        </div>
+
     </div>
 </body>
 
