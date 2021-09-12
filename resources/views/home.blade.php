@@ -121,7 +121,7 @@
                 </a></li>
 
 
-              <li class="sc-hMqMXs LyYQD"><a href="/promo" class="sc-gZMcBi sc-kAzzGY EXJwv sc-eNQAEJ gHFNcT">
+              <li class="sc-hMqMXs LyYQD"><a href="{{url('cekkal.index/')}}" class="sc-gZMcBi sc-kAzzGY EXJwv sc-eNQAEJ gHFNcT">
                   <div class="sc-htpNat cagtoI">
                     <img src="landing/images/new/food.png" alt="Promo" height="54" class="sc-jzJRlG jJeLuK" />
                   </div>Cek Kalori & Olahraga Ideal

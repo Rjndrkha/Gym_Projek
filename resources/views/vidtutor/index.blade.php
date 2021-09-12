@@ -21,6 +21,16 @@
     <link rel="stylesheet" href="vidtutor/owl-carousel/owl.theme.css">
 
     <link rel="stylesheet" href="{!! asset('home/style.css') !!}">
+
+    <style>
+        #owl-demo .tem img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    </style>
+
+
 </head>
 
 <body id="page-top">
@@ -115,6 +125,30 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="main-title">
+
+                            <h6>Featured Videos DENGAN OWL CAROUSEL</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="owl-carousel owl-carousel-category">
+                    <div class="item">
+
+                        <a href="#">
+                            <img src="https://www.landmarkmlp.com/js-plugin/owl.carousel/demos/assets/fullimage1.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <hr>
+            <div class="video-block section-padding">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="main-title">
                             <div class="btn-group float-right right-action">
                                 <a href="#" class="right-action-link text-gray" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Sort by <i class="fa fa-caret-down" aria-hidden="true"></i>
@@ -129,317 +163,191 @@
                             <h6>Featured Videos</h6>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="col-md-12">
-                <div class="owl-carousel owl-carousel-category">
-                    <div class="item">
-                        <div class="category-item">
-                            <a href="#">
-                                <img class="img-fluid" src="vidtutor/images/a.png" alt="">
-                                <h6>HTML</h6>
-
-                            </a>
+                    <div class="col-xl-3 col-sm-6 mb-3 ">
+                        <div class="video-card">
+                            <div class=" video-card-image">
+                                <a class="play-icon" href="{{url('fl.Film1')}}"><i class="fas fa-play-circle"></i></a>
+                                <a href="{{url('fl.Film1')}}"><img class="img-fluid" src="vidtutor/images/a.png" alt=""></a>
+                                <div class="time">60:00</div>
+                            </div>
+                            <div class="video-card-body">
+                                <div class="video-title">
+                                    <a href="{{url('fl.Film1')}}">HTML </a>
+                                </div>
+                                <div class="video-page text-success">
+                                    Code Video <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
+                                </div>
+                                <div class="video-view">
+                                    1.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2020
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="category-item">
-                            <a href="#">
-                                <img class="img-fluid" src="vidtutor/images/b.png" alt="">
-                                <h6>JAVA</h6>
-
-                            </a>
+                    <div class="col-xl-3 col-sm-6 mb-3">
+                        <div class="video-card">
+                            <div class="video-card-image">
+                                <a class="play-icon" href="{{url('fl.Film2')}}"><i class="fas fa-play-circle"></i></a>
+                                <a href="{{url('fl.Film2')}}"><img class="img-fluid" src="vidtutor/images/b.png" alt=""></a>
+                                <div class="time">60:00</div>
+                            </div>
+                            <div class="video-card-body">
+                                <div class="video-title">
+                                    <a href="{{url('fl.Film2')}}">JAVA</a>
+                                </div>
+                                <div class="video-page text-success">
+                                    Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
+                                </div>
+                                <div class="video-view">
+                                    111.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2019
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="category-item">
-                            <a href="#">
-                                <img class="img-fluid" src="vidtutor/images/c.png" alt="">
-                                <h6>CSS</h6>
-
-                            </a>
+                    <div class="col-xl-3 col-sm-6 mb-3">
+                        <div class="video-card">
+                            <div class="video-card-image">
+                                <a class="play-icon" href="{{url('fl.Film3')}}"><i class="fas fa-play-circle"></i></a>
+                                <a href="{{url('fl.Film3')}}"><img class="img-fluid" src="vidtutor/images/c.png" alt=""></a>
+                                <div class="time">60:00</div>
+                            </div>
+                            <div class="video-card-body">
+                                <div class="video-title">
+                                    <a href="{{url('fl.Film3')}}">CSS</a>
+                                </div>
+                                <div class="video-page text-success">
+                                    Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
+                                    <div class="video-view">
+                                        1.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2019
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="category-item">
-                            <a href="#">
-                                <img class="img-fluid" src="vidtutor/images/d.png" alt="">
-                                <h6>SQL </h6>
-
-                            </a>
+                    <div class="col-xl-3 col-sm-6 mb-3">
+                        <div class="video-card">
+                            <div class="video-card-image">
+                                <a class="play-icon" href="{{url('fl.Film4')}}"><i class="fas fa-play-circle"></i></a>
+                                <a href="{{url('fl.Film4')}}"><img class="img-fluid" src="vidtutor/images/d.png" alt=""></a>
+                                <div class="time">60:00</div>
+                            </div>
+                            <div class="video-card-body">
+                                <div class="video-title">
+                                    <a href=".{{url('fl.Film4')}}">SQL</a>
+                                </div>
+                                <div class="video-page text-success">
+                                    Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
+                                </div>
+                                <div class="video-view">
+                                    1.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2019
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="category-item">
-                            <a href="#">
-                                <img class="img-fluid" src="vidtutor/images/e.png" alt="">
-                                <h6>JS</h6>
-
-                            </a>
+                    <div class="col-xl-3 col-sm-6 mb-3">
+                        <div class="video-card">
+                            <div class="video-card-image ">
+                                <a class="play-icon" href="{{url('fl.Film5')}}"><i class="fas fa-play-circle"></i></a>
+                                <a href="{{url('fl.Film5')}}"><img class="img-fluid" src="vidtutor/images/e.png" alt=""></a>
+                                <div class="time">00:00</div>
+                            </div>
+                            <div class="video-card-body">
+                                <div class="video-title">
+                                    <a href="{{url('fl.Film5')}}">JS</a>
+                                </div>
+                                <div class="video-page text-danger">
+                                    Cooming Soon Trailer Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Unverified"><i class="fas fa-frown text-danger"></i></a>
+                                </div>
+                                <div class="video-view">
+                                    0 views &nbsp;<i class="fas fa-calendar-alt"></i> 2020
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="category-item">
-                            <a href="#">
-                                <img class="img-fluid" src="vidtutor/images/f.png" alt="">
-                                <h6>PHP</h6>
-
-                            </a>
+                    <div class="col-xl-3 col-sm-6 mb-3">
+                        <div class="video-card">
+                            <div class="video-card-image">
+                                <a class="play-icon" href="{{url('fl.Film6')}}"><i class="fas fa-play-circle"></i></a>
+                                <a href="{{url('fl.Film6')}}"><img class="img-fluid" src="vidtutor/images/f.png" alt=""></a>
+                                <div class="time">60:00</div>
+                            </div>
+                            <div class="video-card-body">
+                                <div class="video-title">
+                                    <a href="{{url('fl.Film6')}}">PHP</a>
+                                </div>
+                                <div class="video-page text-success">
+                                    Web-Rip Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
+                                </div>
+                                <div class="video-view">
+                                    1.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2020
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="category-item">
-                            <a href="#">
-                                <img class="img-fluid" src="vidtutor/images/g.png" alt="">
-                                <h6>Phyton</h6>
-
-                            </a>
+                    <div class="col-xl-3 col-sm-6 mb-3">
+                        <div class="video-card">
+                            <div class="video-card-image">
+                                <a class="play-icon" href="{{url('fl.Film7')}}"><i class="fas fa-play-circle"></i></a>
+                                <a href="{{url('fl.Film7')}}"><img class="img-fluid" src="vidtutor/images/g.png" alt=""></a>
+                                <div class="time">60:00</div>
+                            </div>
+                            <div class="video-card-body">
+                                <div class="video-title">
+                                    <a href="{{url('fl.Film7')}}">Python</a>
+                                </div>
+                                <div class="video-page text-success">
+                                    Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
+                                </div>
+                                <div class="video-view">
+                                    1.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2019
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="category-item">
-                            <a href="#">
-                                <img class="img-fluid" src="vidtutor/images/h.png" alt="">
-                                <h6>C++</h6>
-
-                            </a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="category-item">
-                            <a href="#">
-                                <img class="img-fluid" src="vidtutor/images/11.png" alt="">
-                                <h6>C</h6>
-
-                            </a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="category-item">
-                            <a href="#">
-                                <img class="img-fluid" src="vidtutor/images/CS.png" alt="">
-                                <h6>C#</h6>
-
-                            </a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="category-item">
-                            <a href="#">
-                                <img class="img-fluid" src="vidtutor/images/flutt.png" alt="">
-                                <h6>Flutter</h6>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <hr>
-    <div class="video-block section-padding">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="main-title">
-                    <div class="btn-group float-right right-action">
-                        <a href="#" class="right-action-link text-gray" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Sort by <i class="fa fa-caret-down" aria-hidden="true"></i>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right">
-                            <a class="dropdown-item" href="#"><i class="fas fa-fw fa-star"></i> &nbsp; Top Rated</a>
-                            <a class="dropdown-item" href="#"><i class="fas fa-fw fa-signal"></i> &nbsp; Viewed</a>
-                            <a class="dropdown-item" href="#"><i class="fas fa-fw fa-times-circle"></i> &nbsp;
-                                Close</a>
-                        </div>
-                    </div>
-                    <h6>Featured Videos</h6>
-                </div>
-            </div>
-            <div class="col-xl-3 col-sm-6 mb-3 ">
-                <div class="video-card">
-                    <div class=" video-card-image">
-                        <a class="play-icon" href="{{url('fl.Film1')}}"><i class="fas fa-play-circle"></i></a>
-                        <a href="{{url('fl.Film1')}}"><img class="img-fluid" src="vidtutor/images/a.png" alt=""></a>
-                        <div class="time">60:00</div>
-                    </div>
-                    <div class="video-card-body">
-                        <div class="video-title">
-                            <a href="{{url('fl.Film1')}}">HTML </a>
-                        </div>
-                        <div class="video-page text-success">
-                            Code Video <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
-                        </div>
-                        <div class="video-view">
-                            1.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2020
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-sm-6 mb-3">
-                <div class="video-card">
-                    <div class="video-card-image">
-                        <a class="play-icon" href="{{url('fl.Film2')}}"><i class="fas fa-play-circle"></i></a>
-                        <a href="{{url('fl.Film2')}}"><img class="img-fluid" src="vidtutor/images/b.png" alt=""></a>
-                        <div class="time">60:00</div>
-                    </div>
-                    <div class="video-card-body">
-                        <div class="video-title">
-                            <a href="{{url('fl.Film2')}}">JAVA</a>
-                        </div>
-                        <div class="video-page text-success">
-                            Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
-                        </div>
-                        <div class="video-view">
-                            111.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2019
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-sm-6 mb-3">
-                <div class="video-card">
-                    <div class="video-card-image">
-                        <a class="play-icon" href="{{url('fl.Film3')}}"><i class="fas fa-play-circle"></i></a>
-                        <a href="{{url('fl.Film3')}}"><img class="img-fluid" src="vidtutor/images/c.png" alt=""></a>
-                        <div class="time">60:00</div>
-                    </div>
-                    <div class="video-card-body">
-                        <div class="video-title">
-                            <a href="{{url('fl.Film3')}}">CSS</a>
-                        </div>
-                        <div class="video-page text-success">
-                            Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
-                            <div class="video-view">
-                                1.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2019
+                    <div class="col-xl-3 col-sm-6 mb-3">
+                        <div class="video-card">
+                            <div class="video-card-image">
+                                <a class="play-icon" href="{{url('fl.Film8')}}"><i class="fas fa-play-circle"></i></a>
+                                <a href="{{url('fl.Film8')}}"><img class="img-fluid" src="vidtutor/images/h.png" alt=""></a>
+                                <div class="time">60:00</div>
+                            </div>
+                            <div class="video-card-body">
+                                <div class="video-title">
+                                    <a href="{{url('fl.Film8')}}">C++</a>
+                                </div>
+                                <div class="video-page text-success">
+                                    Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
+                                </div>
+                                <div class="video-view">
+                                    1.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2020
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-sm-6 mb-3">
-                <div class="video-card">
-                    <div class="video-card-image">
-                        <a class="play-icon" href="{{url('fl.Film4')}}"><i class="fas fa-play-circle"></i></a>
-                        <a href="{{url('fl.Film4')}}"><img class="img-fluid" src="vidtutor/images/d.png" alt=""></a>
-                        <div class="time">60:00</div>
-                    </div>
-                    <div class="video-card-body">
-                        <div class="video-title">
-                            <a href=".{{url('fl.Film4')}}">SQL</a>
-                        </div>
-                        <div class="video-page text-success">
-                            Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
-                        </div>
-                        <div class="video-view">
-                            1.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2019
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-sm-6 mb-3">
-                <div class="video-card">
-                    <div class="video-card-image ">
-                        <a class="play-icon" href="{{url('fl.Film5')}}"><i class="fas fa-play-circle"></i></a>
-                        <a href="{{url('fl.Film5')}}"><img class="img-fluid" src="vidtutor/images/e.png" alt=""></a>
-                        <div class="time">00:00</div>
-                    </div>
-                    <div class="video-card-body">
-                        <div class="video-title">
-                            <a href="{{url('fl.Film5')}}">JS</a>
-                        </div>
-                        <div class="video-page text-danger">
-                            Cooming Soon Trailer Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Unverified"><i class="fas fa-frown text-danger"></i></a>
-                        </div>
-                        <div class="video-view">
-                            0 views &nbsp;<i class="fas fa-calendar-alt"></i> 2020
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-sm-6 mb-3">
-                <div class="video-card">
-                    <div class="video-card-image">
-                        <a class="play-icon" href="{{url('fl.Film6')}}"><i class="fas fa-play-circle"></i></a>
-                        <a href="{{url('fl.Film6')}}"><img class="img-fluid" src="vidtutor/images/f.png" alt=""></a>
-                        <div class="time">60:00</div>
-                    </div>
-                    <div class="video-card-body">
-                        <div class="video-title">
-                            <a href="{{url('fl.Film6')}}">PHP</a>
-                        </div>
-                        <div class="video-page text-success">
-                            Web-Rip Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
-                        </div>
-                        <div class="video-view">
-                            1.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2020
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-sm-6 mb-3">
-                <div class="video-card">
-                    <div class="video-card-image">
-                        <a class="play-icon" href="{{url('fl.Film7')}}"><i class="fas fa-play-circle"></i></a>
-                        <a href="{{url('fl.Film7')}}"><img class="img-fluid" src="vidtutor/images/g.png" alt=""></a>
-                        <div class="time">60:00</div>
-                    </div>
-                    <div class="video-card-body">
-                        <div class="video-title">
-                            <a href="{{url('fl.Film7')}}">Python</a>
-                        </div>
-                        <div class="video-page text-success">
-                            Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
-                        </div>
-                        <div class="video-view">
-                            1.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2019
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-sm-6 mb-3">
-                <div class="video-card">
-                    <div class="video-card-image">
-                        <a class="play-icon" href="{{url('fl.Film8')}}"><i class="fas fa-play-circle"></i></a>
-                        <a href="{{url('fl.Film8')}}"><img class="img-fluid" src="vidtutor/images/h.png" alt=""></a>
-                        <div class="time">60:00</div>
-                    </div>
-                    <div class="video-card-body">
-                        <div class="video-title">
-                            <a href="{{url('fl.Film8')}}">C++</a>
-                        </div>
-                        <div class="video-page text-success">
-                            Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
-                        </div>
-                        <div class="video-view">
-                            1.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2020
+            <hr class="mt-0">
+            <div class="video-block section-padding">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="main-title">
+                            <div class="btn-group float-right right-action">
+                                <a href="#" class="right-action-link text-gray" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Sort by <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-fw fa-star"></i> &nbsp; Top Rated</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-fw fa-signal"></i> &nbsp; Viewed</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-fw fa-times-circle"></i> &nbsp;
+                                        Close</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <hr class="mt-0">
-    <div class="video-block section-padding">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="main-title">
-                    <div class="btn-group float-right right-action">
-                        <a href="#" class="right-action-link text-gray" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Sort by <i class="fa fa-caret-down" aria-hidden="true"></i>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right">
-                            <a class="dropdown-item" href="#"><i class="fas fa-fw fa-star"></i> &nbsp; Top Rated</a>
-                            <a class="dropdown-item" href="#"><i class="fas fa-fw fa-signal"></i> &nbsp; Viewed</a>
-                            <a class="dropdown-item" href="#"><i class="fas fa-fw fa-times-circle"></i> &nbsp;
-                                Close</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
-    </div>
+
 
     <!-- /.container-fluid -->
     <!-- Sticky Footer -->

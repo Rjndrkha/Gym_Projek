@@ -33,13 +33,18 @@ Route::get('artikel.index/', function () {
     return view('artikel.index');
   });
 
+Route::get('cekkal.index/', function () {
+    return view('cekkal.index');
+  });
+
+
 
 //MOVIE
 Route::get('vidtutor.index/', function () {
     return view('vidtutor.index');
   });
 
-  Route::get('vidtutor.Tutor1/', function () {
+Route::get('vidtutor.Tutor1/', function () {
     return view('vidtutor.Tutor1');
   });
   
