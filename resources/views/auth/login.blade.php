@@ -7,7 +7,9 @@
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="{!! asset('logreg/stylelogin.css') !!}">
     <link rel="icon" href="landing/images/new/logo2.png">
-    <title>Welcome Nge Gym Skuy Application</title>
+    <title>Nge Gym | Tanya Trainner dan Tips Hidup Sehat</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="landing/images/new/logo2.png" />
 </head>
 
 <body>

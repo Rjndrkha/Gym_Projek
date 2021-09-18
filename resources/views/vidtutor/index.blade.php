@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Askbootstrap">
     <meta name="author" content="Askbootstrap">
-    <title>G Tutor</title>
-    <!-- Favicon Icon -->
-    <link rel="icon" type="image/png" href="vidtutor/images/logo.png">
+    <title>Nge Gym | Tanya Trainner dan Tips Hidup Sehat</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="landing/images/new/logo2.png" />
     <!-- Bootstrap core CSS-->
     <link href="vidtutor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom fonts for this template-->

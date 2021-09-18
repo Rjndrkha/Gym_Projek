@@ -14,16 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('Auth.welcome');
+    return view('home');
 });
 
-//Auth::routes();
+Auth::routes();
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/', function () {
-    return view('home');
-  });
 
 Route::get('shop.index/', function () {
     return view('shop.index');
@@ -37,6 +34,9 @@ Route::get('cekkal.index/', function () {
     return view('cekkal.index');
   });
 
+Route::get('konsultasi.index/', function () {
+    return view('konsultasi.index');
+  });
 
 
 //MOVIE

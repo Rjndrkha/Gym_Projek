@@ -7,8 +7,9 @@
     <meta name="keywords" content="Ogani, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>G-Shop</title>
+    <title>Nge Gym | Tanya Trainner dan Tips Hidup Sehat</title>
 
+  <link rel="icon" type="image/png" sizes="32x32" href="landing/images/new/logo2.png" />
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{!! asset('home/style.css') !!}">
     <link rel="stylesheet" href="shop/css/bootstrap.min.css%2bfont-awesome.min.css%2belegant-icons.css%2bnice-select.css%2bjquery-ui.min.css%2bowl.carousel.min.css%2bslicknav.min.css%2bstyle.css.pagespeed.cc.4YNTZ7I7f2.css" type="text/css" />

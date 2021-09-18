@@ -12,7 +12,7 @@
     <meta property="fb:app_id" content="698840740537290" />
     <title>Nge Gym | Tanya Trainner dan Tips Hidup Sehat</title>
 
-    <link rel="icon" type="image/png" sizes="32x32" href="logo2.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="landing/images/new/logo2.png" />
 
     <link rel="preload" as="font" href="https://static.sehatq.com/web/assets/fonts/opensans/OpenSans-Regular-v17.woff2?v=6" type="font/woff2" crossorigin="anonymous" />
     <link rel="preload" as="font" href="https://static.sehatq.com/web/assets/fonts/opensans/OpenSans-SemiBold-v17.woff2?v=6" type="font/woff2" crossorigin="anonymous" />
