@@ -118,7 +118,8 @@
                   </div> Konsultasi Trainer
                 </a>
               </li>
-              <li class="sc-hMqMXs LyYQD"><a href="/faskes" class="sc-gZMcBi sc-kAzzGY EXJwv sc-eNQAEJ gHFNcT">
+              <li class="sc-hMqMXs LyYQD">
+                <a href="{{url('GymTerdekat.index/')}}" class="sc-gZMcBi sc-kAzzGY EXJwv sc-eNQAEJ gHFNcT">
                   <div class="sc-htpNat cagtoI">
                     <img src="https://cms.sehatq.com/cdn-cgi/image/f=auto,width=54,height=54,fit=pad,quality=100/public/img/revamp_icon/feature_icon_hcf_active.png?v=6" alt="Rumah Sakit" height="54" class="sc-jzJRlG jJeLuK" />
                   </div>Gym Terdekat

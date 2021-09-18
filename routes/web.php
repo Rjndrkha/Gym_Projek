@@ -38,6 +38,9 @@ Route::get('konsultasi.index/', function () {
     return view('konsultasi.index');
   });
 
+Route::get('GymTerdekat.index/', function () {
+    return view('GymTerdekat.index');
+  });
 
 //MOVIE
 Route::get('vidtutor.index/', function () {
