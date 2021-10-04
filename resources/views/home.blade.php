@@ -84,9 +84,9 @@
           <div class="sc-htpNat gMTZTI">
             <div class="slick-slider sc-kTUwUJ guxhfg home-banner-slider home-banner-main slick-initialized" dir="ltr">
               <div class="w3-content w3-section" style="max-width:500px">
-                <img class="mySlides" src="logopp.png" style="width:100%">
-                <img class="mySlides" src="logopp.png" style="width:100%">
-                <img class="mySlides" src="logopp.png" style="width:100%">
+                <img class="mySlides" src="landing2/revolution/assets/slider-gym/72d91-01.jpg" style="width:100%">
+                <img class="mySlides" src="landing2/revolution/assets/slider-gym/ee606-02.jpg" style="width:100%">
+                <img class="mySlides" src="landing2/revolution/assets/slider-gym/72d91-01.jpg" style="width:100%">
 
               </div>
             </div>

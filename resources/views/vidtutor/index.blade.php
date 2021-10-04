@@ -9,7 +9,7 @@
     <meta name="author" content="Askbootstrap">
     <title>Nge Gym | Tanya Trainner dan Tips Hidup Sehat</title>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="landing/images/new/logo2.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="landing/images/new/logo2.png" />
     <!-- Bootstrap core CSS-->
     <link href="vidtutor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom fonts for this template-->
@@ -28,6 +28,11 @@
             width: 100%;
             height: auto;
         }
+
+        .center {
+            margin-left: 300px;
+            margin-right: 300px;
+        }
     </style>
 
 
@@ -39,7 +44,7 @@
 
         <a class="navbar-brand mr-1" href="index.html">
             <div class="logo">
-                <img src="vidtutor/images/logo.png" style="height: 50px;width: 100px;margin-left: 30px">
+                <img src="landing/images/new/logoland.png" style="height: 50px;width: 100px;margin-left: 30px">
             </div>
         </a>
         <!-- Navbar Search -->
@@ -67,37 +72,12 @@
                     Back To Main
                 </a>
             </li>
-            <li class="nav-item dropdown no-arrow mx-1">
-                <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fas fa-bell fa-fw"></i>
-                    <span class="badge badge-danger">9+</span>
-                </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="alertsDropdown">
-                    <a class="dropdown-item" href="#"><i class="fas fa-fw fa-edit "></i> &nbsp; Action</a>
-                    <a class="dropdown-item" href="#"><i class="fas fa-fw fa-headphones-alt "></i> &nbsp; Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#"><i class="fas fa-fw fa-star "></i> &nbsp; Something else here</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown no-arrow mx-1">
-                <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fas fa-envelope fa-fw"></i>
-                    <span class="badge badge-success">7</span>
-                </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="messagesDropdown">
-                    <a class="dropdown-item" href="#"><i class="fas fa-fw fa-edit "></i> &nbsp; Action</a>
-                    <a class="dropdown-item" href="#"><i class="fas fa-fw fa-headphones-alt "></i> &nbsp; Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#"><i class="fas fa-fw fa-star "></i> &nbsp; Something else here</a>
-                </div>
-            </li>
+
             <li class="nav-item dropdown no-arrow osahan-right-navbar-user">
                 <a class="nav-link dropdown-toggle user-dropdown-link" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 
                     Rajendra
                 </a>
-
-
                 </div>
             </li>
         </ul>
@@ -124,24 +104,24 @@
             <div class="video-block section-padding">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="main-title">
+                        <div style="text-align: centers;">
 
-                            <h6>Featured Videos DENGAN OWL CAROUSEL</h6>
+                            <h6 style="text-align: centers;">GYM TIPS AND TEKNIK </h6>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-12">
-                <div class="owl-carousel owl-carousel-category">
-                    <div class="item">
 
-                        <a href="#">
-                            <img src="https://www.landmarkmlp.com/js-plugin/owl.carousel/demos/assets/fullimage1.jpg" alt="">
-                        </a>
-                    </div>
+            <div class="center">
+                <div class="w3-content w3-section" style="max-width:100%;display:contents;">
+                    <img class="mySlides" src="landing2/revolution/assets/slider-gym/72d91-01.jpg" style="width:100%;">
+                    <img class="mySlides" src="landing2/revolution/assets/slider-gym/ee606-02.jpg" style="width:100%">
+                    <img class="mySlides" src="landing2/revolution/assets/slider-gym/72d91-01.jpg" style="width:100%">
+
                 </div>
             </div>
+
 
 
             <hr>
@@ -508,6 +488,25 @@
     <script src="vidtutor/owl-carousel/owl.carousel.js"></script>
     <!-- Custom scripts for all pages-->
     <script src="vidtutor/js/custom1.js"></script>
+    <script>
+        //Carousel
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 5000); // Change image every 2 seconds
+        }
+    </script>
 </body>
 
 </html>
