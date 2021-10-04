@@ -61,7 +61,7 @@
  preloader -->
 
         <div id="pre-loader">
-            <img src="landing2/images/pre-loader/loader-14.svg" alt="">
+            <img src="landing2/images/loader-14.svg" alt="">
         </div>
 
         <!--=================================
