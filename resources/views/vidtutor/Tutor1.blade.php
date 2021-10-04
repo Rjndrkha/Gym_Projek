@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="vidtutorskbootstrap">
-    <meta name="vidtutoruthor" content="vidtutorskbootstrap">
+    <meta name="description" content="Askbootstrap">
+    <meta name="author" content="Askbootstrap">
     <title>Nge Gym | Tanya Trainner dan Tips Hidup Sehat</title>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="landing/images/new/logo2.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="landing/images/new/logo2.png" />
     <!-- Bootstrap core CSS-->
     <link href="vidtutor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom fonts for this template-->
@@ -19,17 +19,17 @@
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="vidtutor/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="vidtutor/owl-carousel/owl.theme.css">
+
+    <link rel="stylesheet" href="{!! asset('home/style.css') !!}">
 </head>
 
 <body id="page-top">
-    <nav class="navbar navbar-expand navbar-light bg-white static-top osahan-nav sticky-top">
+<nav class="navbar navbar-expand navbar-light bg-white static-top osahan-nav sticky-top">
         &nbsp;&nbsp;
-        <button class="btn btn-link btn-sm text-secondary order-1 order-sm-0" id="sidebarToggle">
-            <i class="fas fa-bars"></i>
-        </button> &nbsp;&nbsp;
-        <a class="navbar-brand mr-1" href="{{url('index')}}">
+
+        <a class="navbar-brand mr-1" href="index.html">
             <div class="logo">
-                <img href="{{url('index')}}" src="vidtutor/images/logo.png" style="height: 50px;width: 100px;margin-left: 30px">
+                <img src="landing/images/new/logoland.png" style="height: 50px;width: 100px;margin-left: 30px">
             </div>
         </a>
         <!-- Navbar Search -->
@@ -45,103 +45,33 @@
         </form>
         <!-- Navbar -->
         <ul class="navbar-nav ml-auto ml-md-0 osahan-right-navbar">
+            <!--<li class="nav-item mx-1">
+            <a class="nav-link" href="upload.html">
+               <i class="fas fa-plus-circle fa-fw"></i>
+               Upload Video
+            </a>
+         </li> -->
             <li class="nav-item mx-1">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="{{url('/')}}">
                     <i class="fas fa-plus-circle fa-fw"></i>
-                    Upload Video
+                    Back To Main
                 </a>
             </li>
-            <li class="nav-item dropdown no-arrow mx-1">
-                <a class="nav-link dropdown-toggle" href="#" id="vidtutorlertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fas fa-bell fa-fw"></i>
-                    <span class="badge badge-danger">9+</span>
-                </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="vidtutorlertsDropdown">
-                    <a class="dropdown-item" href="#"><i class="fas fa-fw fa-edit "></i> &nbsp; Action</a>
-                    <a class="dropdown-item" href="#"><i class="fas fa-fw fa-headphones-alt "></i> &nbsp; Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#"><i class="fas fa-fw fa-star "></i> &nbsp; Something else here</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown no-arrow mx-1">
-                <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fas fa-envelope fa-fw"></i>
-                    <span class="badge badge-success">7</span>
-                </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="messagesDropdown">
-                    <a class="dropdown-item" href="#"><i class="fas fa-fw fa-edit "></i> &nbsp; Action</a>
-                    <a class="dropdown-item" href="#"><i class="fas fa-fw fa-headphones-alt "></i> &nbsp; Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#"><i class="fas fa-fw fa-star "></i> &nbsp; Something else here</a>
-                </div>
-            </li>
+
             <li class="nav-item dropdown no-arrow osahan-right-navbar-user">
                 <a class="nav-link dropdown-toggle user-dropdown-link" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img alt="vidtutorvatar" src="../img/icon2.png">
-                    Admin
+
+                    Rajendra
                 </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                    <a class="dropdown-item" href="../DLL/account.html"><i class="fas fa-fw fa-user-circle"></i> &nbsp; My
-                        Account</a>
-                    <a class="dropdown-item" href="#"><i class="fas fa-fw fa-video"></i> &nbsp;
-                        Subscriptions</a>
-                    <a class="dropdown-item" href="#"><i class="fas fa-fw fa-cog"></i> &nbsp; Settings</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal"><i class="fas fa-fw fa-sign-out-alt"></i> &nbsp; Logout</a>
                 </div>
             </li>
         </ul>
     </nav>
 
     <div id="wrapper">
-        <!-- Sidebar -->
-        <ul class="sidebar navbar-nav">
-            <li class="nav-item ">
-                <a class="nav-link" href={{url('index')}}>
-                    <i class="fas fa-fw fa-home"></i>
-                    <span>Home</span>
-                </a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link active" href="video-page.html">
-                    <i class="fas fa-fw fa-video"></i>
-                    <span>Upcoming Movie Trailer</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#  ">
-                    <i class="fas fa-fw fa-cloud-upload-alt"></i>
-                    <span>Upload Video</span>
-                </a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Pages</span>
-                </a>
-                <div class="dropdown-menu">
-                    <h6 class="dropdown-header">Login Screens:</h6>
-                    <a class="dropdown-item" href="../RegLog/login.html">Login</a>
-                    <a class="dropdown-item" href="../RegLog/register.html">Register</a>
-                    <a class="dropdown-item" href="#">Forgot Password</a>
-                    <div class="dropdown-divider"></div>
-                    <h6 class="dropdown-header">Other Pages:</h6>
-                    <a class="dropdown-item" href="../jadwal/jadwal.php">Cooming Soon Movie</a>
-                    <a class="dropdown-item" href="../DLL/404.html">404 Page</a>
-                    <a class="dropdown-item" href="../DLL/blank.html">Blank Page</a>
-
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../DLL/about.html">
-                    <i class="fas fa-fw fa-history"></i>
-                    <span> About Us</span>
-                </a>
-            </li>
-        </ul>
-
+        
         <div id="content-wrapper">
-            <div class="container-fluid pb-0">
+            <div class="container-fluid pb-0" style="padding-right: 30px; padding-left: 30px;">
                 <div class="video-block section-padding">
                     <div class="row">
                         <div class="col-md-8">
@@ -172,12 +102,7 @@
                             <div class="single-video-right">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div class="vidtutordblock">
-                                            <div class="vidtutor/img">
-                                                Google AdSense<br>
-                                                336 x 280
-                                            </div>
-                                        </div>
+                                        
                                         <div class="main-title">
                                             <div class="btn-group float-right right-action">
                                                 <a href="#" class="right-action-link text-gray" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -320,12 +245,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="vidtutordblock mt-0">
-                                        <div class="../img">
-                                            Google AdSense<br>
-                                            336 x 280
-                                        </div>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -334,27 +254,147 @@
             </div>
         </div>
     </div>
-    </div>
+
     <!-- /.container-fluid -->
     <!-- Sticky Footer -->
-    <footer class="sticky-footer">
-        <div class="container">
-            <div class="row no-gutters">
-                <div class="col-lg-6 col-sm-6">
-                    <p class="mt-1 mb-0"><strong class="text-dark">Copyright By ArJ Movie 2020</strong>.
-                        <br>
-                        <small class="mt-0 mb-0"><a class="text-primary" target="_blank" href="https://www.polinema.ac.id/">By Politeknik Negeri Malang</a>
-                        </small>
-                    </p>
-                </div>
-                <div class="col-lg-6 col-sm-6 text-right">
-                    <div class="vidtutorpp">
-                        <a href="#"><img alt="" src="vidtutor/img/googleplay.png"></a>
-                        <a href="#"><img alt="" src="vidtutor/img/apps.png"></a>
+    <footer class="sc-htpNat cnzSqm">
+        <div class="sc-chPdSV ckEKKQ">
+            <div class="sc-htpNat hZywIq">
+                <div class="sc-htpNat bGGnxF"><img alt="SehatQ" src="landing/images/new/logo2.png" width="150" height="150" class="sc-jzJRlG jJeLuK" /></div>
+                <div class="sc-kGXeez iygvnT">
+                    <div class="sc-kpOJdX gxxeLD">
+                        <div class="sc-htpNat bSPBUS">
+                            <h4 class="sc-gZMcBi cCJIfu poppins">Langganan Newsletter</h4>
+                            <div class="sc-htpNat iZWQZt">
+                                <p class="sc-gZMcBi LMvqO">Jadi orang yang pertama tahu info &amp; promosi kesehatan terbaru
+                                    dari
+                                    SehatQ. Gratis.</p>
+                                <div class="sc-kGXeez kJqNCf">
+                                    <div class="sc-kpOJdX cxogSu"><label class="sc-jbKcbu hJrbEv"><input type="radio" name="news_gender" class="sc-jqCOkK iXJHQM" /><span class="sc-dNLxif gzOlIM"><i></i>Perempuan</span></label>
+                                    </div>
+                                    <div class="sc-kpOJdX kHHyUN"><label class="sc-jbKcbu hJrbEv"><input type="radio" name="news_gender" class="sc-jqCOkK iXJHQM" /><span class="sc-dNLxif gzOlIM"><i></i>Laki-laki</span></label>
+                                    </div>
+                                </div>
+                                <div class="sc-hqyNC lgqMMo">
+                                    <div class="sc-kGXeez jXfIFk">
+                                        <div class="sc-kpOJdX rRICf">
+                                            <div class="sc-iAyFgw PPzwV">
+                                                <div class="sc-hSdWYo lpuOSs">
+                                                    <div class="sc-jlyJG jpaAuv">
+                                                        <input type="email" maxLength="150" placeholder="Email" value="" class="sc-jAaTju bXLluq" />
+                                                    </div>
+                                                    <div class="sc-jWBwVP eWjpev">
+                                                        <button type="button" class="sc-bxivhb fUcnfF sc-ifAKCX ebnevm"><i class="sc-EHOje hNxZub"></i></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sc-htpNat iZWQZt">
+                            <h4 class="sc-gZMcBi cCJIfu poppins">Metode Pembayaran</h4>
+                            <div class="sc-kGXeez fvSaIv">
+                                <div class="sc-kpOJdX jdDXmT"><img src="https://static.sehatq.com/web/assets/img/payment/bca.png?v=6" alt="Metode pembayaran BCA" width="60" height="20" class="sc-jzJRlG jJeLuK" /></div>
+                                <div class="sc-kpOJdX jdDXmT"><img src="https://static.sehatq.com/web/assets/img/payment/mandiri.png?v=6" alt="Metode pembayaran Mandiri" width="65" height="18" class="sc-jzJRlG jJeLuK" /></div>
+                                <div class="sc-kpOJdX jdDXmT"><img src="https://static.sehatq.com/web/assets/img/payment/bni.png?v=6" alt="Metode pembayaran BNI" width="58" height="17" class="sc-jzJRlG jJeLuK" /></div>
+                                <div class="sc-kpOJdX jdDXmT"><img src="https://static.sehatq.com/web/assets/img/payment/permata.png?v=6" alt="Metode pembayaran Permata" width="84" height="20" class="sc-jzJRlG jJeLuK" /></div>
+                                <div class="sc-kpOJdX jdDXmT"><img src="https://static.sehatq.com/web/assets/img/cc.png?v=6" alt="Metode pembayaran Kartu Kredit" width="180.36" height="29" class="sc-jzJRlG jJeLuK" />
+                                </div>
+                                <div class="sc-kpOJdX jdDXmT"><img src="https://static.sehatq.com/web/assets/img/gopay.png?v=6" alt="Metode pembayaran Gopay" width="73.84" height="16" class="sc-jzJRlG jJeLuK" /></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sc-kpOJdX bonvib">
+                        <div class="sc-htpNat iZWQZt">
+                            <h4 class="sc-gZMcBi cCJIfu poppins">Fitur</h4>
+                            <div class="sc-htpNat iZWQZt">
+                                <ul class="sc-gipzik kRcWov">
+
+                                    <li class="sc-csuQGl clWQaq"><a href="/promo" class="sc-gZMcBi sc-kAzzGY wYtXl">Promo</a></li>
+                                    <li class="sc-csuQGl clWQaq"><a href="/artikel" class="sc-gZMcBi sc-kAzzGY wYtXl">Artikel</a>
+                                    </li>
+                                    <li class="sc-csuQGl clWQaq"><a href="/telemed" class="sc-gZMcBi sc-kAzzGY wYtXl">Chat
+                                            Dokter</a>
+                                    </li>
+                                    <li class="sc-csuQGl clWQaq"><a href="/penyakit" class="sc-gZMcBi sc-kAzzGY wYtXl">Penyakit</a></li>
+                                    <li class="sc-csuQGl clWQaq"><a href="/forum" class="sc-gZMcBi sc-kAzzGY wYtXl">Forum</a></li>
+                                    <li class="sc-csuQGl clWQaq"><a href="/review" class="sc-gZMcBi sc-kAzzGY wYtXl">Review</a>
+                                    </li>
+                                    <li class="sc-csuQGl clWQaq"><a href="/tes-kesehatan" class="sc-gZMcBi sc-kAzzGY wYtXl">Tes
+                                            Kesehatan</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sc-kpOJdX bonvib">
+                        <div class="sc-htpNat bGGnxF">
+                            <h4 class="sc-gZMcBi cCJIfu poppins">Perusahaan</h4>
+                            <div class="sc-htpNat iZWQZt">
+                                <ul class="sc-gipzik kRcWov">
+                                    <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Tentang Kami</a></li>
+                                    <li class="sc-csuQGl clWQaq"><a href="/karir" class="sc-gZMcBi sc-kAzzGY wYtXl">Karir</a></li>
+                                    <li class="sc-csuQGl clWQaq"><a href="/kontak" class="sc-gZMcBi sc-kAzzGY wYtXl">Kontak
+                                            Kami</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="sc-htpNat iZWQZt">
+                            <h4 class="sc-gZMcBi cCJIfu poppins">Follow us on</h4>
+                            <div class="sc-htpNat iZWQZt">
+                                <ul class="sc-gipzik kRcWov">
+                                    <li class="sc-csuQGl clWQaq"><a href="#" target="_blank" rel="noopener noreferrer" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">
+                                            <div class="sc-bdVaJa iwhGZe"><img src="https://static.sehatq.com/web/assets/img/socials/social_fb_grey.svg?v=6" alt="Facebook" height="14" width="14" class="sc-jzJRlG jJeLuK" /><span class="sc-gZMcBi hrxLF">Facebook</span></div>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sc-kpOJdX cBXViV">
+                        <div class="sc-htpNat bGGnxF">
+                            <h4 class="sc-gZMcBi cCJIfu poppins">Dukungan</h4>
+                            <div class="sc-htpNat iZWQZt">
+                                <ul class="sc-gipzik kRcWov">
+                                    <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Syarat
+                                            dan Ketentuan</a></li>
+                                    <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Privacy
+                                            Policy</a></li>
+                                    <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Kebijakan
+                                            Editorial</a></li>
+                                    <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl">Direktori
+                                            Tag</a></li>
+                                    <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Pusat
+                                            Bantuan</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="sc-htpNat iZWQZt">
+                            <h4 class="sc-gZMcBi cCJIfu poppins">Daftar Menjadi Mitra</h4>
+                            <div class="sc-htpNat iZWQZt">
+                                <ul class="sc-gipzik kRcWov">
+                                    <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl Anchor-NexLink">Merchant</a></li>
+                                    <li class="sc-csuQGl clWQaq"><a href="/mitra-faskes" class="sc-gZMcBi sc-kAzzGY wYtXl">Mitra
+                                            Faskes</a></li>
+                                    <li class="sc-csuQGl clWQaq"><a href="#" class="sc-gZMcBi sc-kAzzGY wYtXl">Mitra
+                                            Perusahaan</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sc-kpOJdX cBXViV">
+                        <div class="sc-htpNat iZWQZt">
+                            <h4 class="sc-gZMcBi cCJIfu poppins">Available On</h4>
+                            <div class="sc-htpNat iZWQZt"><a href="#" target="_blank" rel="noopener noreferrer" class="sc-gZMcBi sc-kAzzGY EXJwv"><img src="https://static.sehatq.com/web/assets/img/appstore.png?v=6" alt="App Store" width="150" height="50" class="sc-jzJRlG jJeLuK" /></a></div>
+                            <div class="sc-htpNat cwbsJi"><a href="#" target="_blank" rel="noopener noreferrer" class="sc-gZMcBi sc-kAzzGY EXJwv"><img src="https://static.sehatq.com/web/assets/img/playstore.png?v=6" alt="Play Store" width="150" height="44.67" class="sc-jzJRlG jJeLuK" /></a></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </footer>
     </div>
     <!-- /.content-wrapper -->

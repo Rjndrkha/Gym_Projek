@@ -84,7 +84,7 @@
     </nav>
 
     <div id="content-wrapper">
-        <div class="container-fluid pb-0">
+        <div class="pb-0" style="width: 100%;padding-right: 30px;padding-left: 30px;margin-right: auto;margin-left: auto;">
             <div class="top-mobile-search">
                 <div class="row">
                     <div class="col-md-12">
@@ -146,13 +146,14 @@
                     <div class="col-xl-3 col-sm-6 mb-3 ">
                         <div class="video-card">
                             <div class=" video-card-image">
-                                <a class="play-icon" href="{{url('fl.Film1')}}"><i class="fas fa-play-circle"></i></a>
-                                <a href="{{url('fl.Film1')}}"><img class="img-fluid" src="vidtutor/images/a.png" alt=""></a>
+                                <a class="play-icon" href="{{url('vidtutor.Tutor1')}}"><i class="fas fa-play-circle"></i></a>
+                                <a href="{{url('vidtutor.Tutor1')}}"><img class="img-fluid" src="vidtutor/images/a.png" alt=""></a>
                                 <div class="time">60:00</div>
                             </div>
+
                             <div class="video-card-body">
                                 <div class="video-title">
-                                    <a href="{{url('fl.Film1')}}">HTML </a>
+                                    <a href="{{url('vidtutor.Tutor1')}}">TUTOR 1 </a>
                                 </div>
                                 <div class="video-page text-success">
                                     Code Video <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>

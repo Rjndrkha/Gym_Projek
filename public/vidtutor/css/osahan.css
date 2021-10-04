@@ -42,7 +42,7 @@ Version: 1.0
      width: 100%;
 }
  #wrapper #content-wrapper .container-fluid{
-     padding: 30px 30px 30px 255px;
+     padding: 30px 30px 30px 55px;
 }
 .sidebar-toggled #wrapper #content-wrapper .container-fluid{
      padding: 30px 30px 30px 121px;
