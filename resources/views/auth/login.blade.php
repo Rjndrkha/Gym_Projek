@@ -193,7 +193,7 @@
                             Sign up
                         </button>
                     </div>
-                    <img src="logreg/log.svg" class="image" alt="" />
+                    <img src="logreg/gg.png" class="image" alt="" />
                 </div>
                 <div class="panel right-panel">
                     <div class="content">
